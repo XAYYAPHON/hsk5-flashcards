@@ -1357,4 +1357,12 @@ const vocabulary = [
         examplePinyin: "Tā zǒulù wāiwāi niǔniǔ de.",
         translation: "เขาเดินแบบเบี้ยว",
     },
+     {
+        word: "不耐烦",
+        pinyin: "bù nàifán",
+        meaning: "ไม่ทน, ร้อนใจ",
+        example: "他不耐烦地等待着。",
+        examplePinyin: "Tā bù nàifán de děngdài zhe.",
+        translation: "เขารออย่างร้อนใจ",
+    },
 ];
