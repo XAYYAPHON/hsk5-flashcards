@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HSK 5 Flashcards</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px 10px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        #progress {
+            color: #666;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        /* FLASHCARD */
+
+        .flashcard {
+            width: 100%;
+            height: 400px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        .flashcard.flipped .card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .card-front,
+        .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+
+            background: white;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            padding: 40px;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+            text-align: center;
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+        }
+
+        .word {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .pinyin {
+            font-size: 28px;
+            color: #666;
+        }
+
+        .meaning {
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        .example {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .example-pinyin {
+            font-size: 18px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .translation {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .hint {
+            margin-top: 20px;
+            color: #888;
+        }
+
+        /* BUTTONS */
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        button {
+            border: none;
+            padding: 14px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #previous {
+            background: #ddd;
+        }
+
+        #next {
+            background: #222;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        /* MOBILE PHONE */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 0 10px;
+    }
+
+    header {
+        padding: 20px 10px 5px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 15px auto;
+        padding: 5px;
+    }
+
+    .flashcard {
+        width: 100%;
+        height: 420px;
+    }
+
+    .card-front,button:hover {
+    opacity: 0.8;
+}
+
+
+/* MOBILE PHONE */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 0 10px;
+    }
+
+    header {
+        padding: 20px 10px 5px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 15px auto;
+        padding: 5px;
+    }
+
+    .flashcard {
+        width: 100%;
+        height: 420px;
+    }
+
+    .card-front,
+    .card-back {
+        padding: 25px 15px;
+        border-radius: 16px;
+    }
+
+    .word {
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+
+    .pinyin {
+        font-size: 24px;
+    }
+
+    .meaning {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .example {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .example-pinyin {
+        font-size: 16px;
+    }
+
+    .translation {
+        font-size: 16px;
+    }
+
+    .hint {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .buttons {
+        width: 100%;
+        gap: 8px;
+        margin-top: 18px;
+    }
+
+    button {
+        flex: 1;
+        padding: 13px 8px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .flashcard {
+        height: 380px;
+    }
+
+    .word {
+        font-size: 42px;
+    }
+
+    .pinyin {
+        font-size: 21px;
+    }
+
+    .meaning {
+        font-size: 23px;
+    }
+
+    button {
+        font-size: 13px;
+        padding: 12px 5px;
+    }
+}
+
+</style>
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HSK 5 Flashcards</h1>
+        <div id="progress"></div>
+    </header>
+
+
+    <main class="container">
+
+        <!-- FLASHCARD -->
+
+        <div class="flashcard" id="flashcard">
+
+    <div class="card-inner">
+
+        <!-- FRONT -->
+
+        <div class="card-front">
+
+            <div class="word" id="word"></div>
+
+            <div class="pinyin" id="frontPinyin"></div>
+
+            <div class="hint">
+                Click the card to reveal the answer
+            </div>
+
+        </div>
+
+
+        <!-- BACK -->
+
+        <div class="card-back">
+
+            <div class="word" id="backWord"></div>
+
+            <div class="pinyin" id="backPinyin"></div>
+
+            <div class="meaning" id="meaning"></div>
+
+            <div class="example" id="example"></div>
+
+            <div class="example-pinyin" id="examplePinyin"></div>
+
+            <div class="translation" id="translation"></div>
+
+        </div>
+
+    </div>
+
+</div>
+</div>
+
+
+        <!-- BUTTONS -->
+
+        <div class="buttons">
+
+    <button id="previous">
+        ← Previous
+    </button>
+
+    <button id="random">
+        Random
+    </button>
+
+    <button id="next">
+        Next →
+    </button>
+
+</div>
+
+
+    </main>
+
+<script src="vocabulary.js"></script>
+
+<script>
+
+let currentCard = 0;
+
+const flashcard = document.getElementById("flashcard");
+
+const word = document.getElementById("word");
+
+const frontPinyin = document.getElementById("frontPinyin");
+
+const backWord = document.getElementById("backWord");
+const backPinyin = document.getElementById("backPinyin");
+
+const meaning = document.getElementById("meaning");
+const example = document.getElementById("example");
+const examplePinyin = document.getElementById("examplePinyin");
+const translation = document.getElementById("translation");
+
+const progress = document.getElementById("progress");
+
+
+function showCard() {
+
+    const card = vocabulary[currentCard];
+
+    // FRONT
+    word.textContent = card.word;
+    frontPinyin.textContent = card.pinyin;
+
+    // BACK
+
+    backPinyin.textContent = card.pinyin;
+    backWord.textContent = card.word;
+
+    meaning.textContent = card.meaning;
+
+    example.textContent = card.example || "";
+    examplePinyin.textContent = card.examplePinyin || "";
+    translation.textContent = card.translation || "";
+
+    progress.textContent =
+        `Card ${currentCard + 1} of ${vocabulary.length}`;
+
+    // Always show front when changing cards
+    flashcard.classList.remove("flipped");
+}
+
+
+// Click card to flip
+
+flashcard.addEventListener("click", function () {
+
+    flashcard.classList.toggle("flipped");
+
+});
+
+
+// Next card
+
+document.getElementById("next").addEventListener("click", function () {
+
+    currentCard++;
+
+    if (currentCard >= vocabulary.length) {
+        currentCard = 0;
+    }
+
+    showCard();
+
+});
+
+
+// Previous card
+
+document.getElementById("previous").addEventListener("click", function () {
+
+    currentCard--;
+
+    if (currentCard < 0) {
+        currentCard = vocabulary.length - 1;
+    }
+
+    showCard();
+
+});
+
+
+// Random card
+
+document.getElementById("random").addEventListener("click", function () {
+
+    let randomCard;
+
+    do {
+        randomCard = Math.floor(Math.random() * vocabulary.length);
+    }
+    while (randomCard === currentCard && vocabulary.length > 1);
+
+    currentCard = randomCard;
+
+    showCard();
+
+});
+
+
+// Show first card
+
+showCard();
+
+</script>
+
+</body>
+</html>
