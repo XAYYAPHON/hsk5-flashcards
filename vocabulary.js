@@ -1365,4 +1365,12 @@ const vocabulary = [
         examplePinyin: "Tā bù nàifán de děngdài zhe.",
         translation: "เขารออย่างร้อนใจ",
     },
+     {
+        word: "靠",
+        pinyin: "kào",
+        meaning: "อาศัย, ยึด",
+        example: "他靠在桌子上。",
+        examplePinyin: "Tā kào zài zhuōzi shàng.",
+        translation: "เขาอาศัยอยู่บนโต๊ะ",
+    },
 ];
