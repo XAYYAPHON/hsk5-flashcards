@@ -1090,7 +1090,7 @@ const vocabulary = [
         meaning: "ได้เงิน, ทำงานเพื่อรายได้",
         example: "他努力挣钱养家。",
         examplePinyin: "Tā nǔlì zhēngqián yǎngjiā.",
-        translation: "เขาทำงานหนักเพื่อ kiếmเงินเลี้ยงครอบครัว",
+        translation: "เขาทำงานหนักเพื่อเงินเลี้ยงครอบครัว",
     },
     {
         word: "装修",
@@ -1372,5 +1372,13 @@ const vocabulary = [
         example: "他靠在桌子上。",
         examplePinyin: "Tā kào zài zhuōzi shàng.",
         translation: "เขาอาศัยอยู่บนโต๊ะ",
+    },
+    {
+        word: "居然",
+        pinyin: "jūrán",
+        meaning: "แม้กระทั่ง, ไม่คาดคิด",
+        example: "他居然会来。",
+        examplePinyin: "Tā jūrán huì lái.",
+        translation: "เขาแม้กระทั่งจะมา",
     },
 ];
