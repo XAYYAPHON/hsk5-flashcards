@@ -332,6 +332,8 @@
 
             <div class="pinyin" id="backPinyin"></div>
 
+            <div class="part-of-speech" id="partOfSpeech"></div>
+
             <div class="meaning" id="meaning"></div>
 
             <div class="example" id="example"></div>
@@ -409,6 +411,7 @@ function showCard() {
 
     example.textContent = card.example || "";
     examplePinyin.textContent = card.examplePinyin || "";
+    partOfSpeech.textContent = card.partOfSpeech || "";
     translation.textContent = card.translation || "";
 
     progress.textContent =
