@@ -2176,4 +2176,346 @@ const vocabulary = [
         examplePinyin: "Jīntiān tài lèi le, bùrú míngtiān zài qù ba.",
         translation: "วันนี้เหนื่อยเกินไป พรุ่งนี้ค่อยไปดีกว่า",
     },
+{
+    word: "不要紧",
+    partOfSpeech: "phrase",
+    pinyin: "bú yàojǐn",
+    meaning: "ไม่เป็นไร, ไม่สำคัญ",
+    example: "没关系，不要紧。",
+    examplePinyin: "Méi guānxi, bú yàojǐn.",
+    translation: "ไม่เป็นไร ไม่ต้องกังวล"
+  },
+  {
+    word: "不足",
+    partOfSpeech: "adjective (adj.) / noun (n.)",
+    pinyin: "bùzú",
+    meaning: "ไม่เพียงพอ, ข้อบกพร่อง",
+    example: "我们的经验还不足。",
+    examplePinyin: "Wǒmen de jīngyàn hái bùzú.",
+    translation: "ประสบการณ์ของพวกเรายังไม่เพียงพอ"
+  },
+  {
+    word: "布",
+    partOfSpeech: "noun (n.)",
+    pinyin: "bù",
+    meaning: "ผ้า",
+    example: "妈妈买了一块蓝色的布。",
+    examplePinyin: "Māma mǎi le yí kuài lánsè de bù.",
+    translation: "แม่ซื้อผ้าสีน้ำเงินมาหนึ่งผืน"
+  },
+  {
+    word: "步骤",
+    partOfSpeech: "noun (n.)",
+    pinyin: "bùzhòu",
+    meaning: "ขั้นตอน",
+    example: "请按照步骤操作。",
+    examplePinyin: "Qǐng ànzhào bùzhòu cāozuò.",
+    translation: "กรุณาดำเนินการตามขั้นตอน"
+  },
+  {
+    word: "部门",
+    partOfSpeech: "noun (n.)",
+    pinyin: "bùmén",
+    meaning: "แผนก, หน่วยงาน",
+    example: "他在公司的技术部门工作。",
+    examplePinyin: "Tā zài gōngsī de jìshù bùmén gōngzuò.",
+    translation: "เขาทำงานอยู่ในแผนกเทคนิคของบริษัท"
+  },
+  {
+    word: "材料",
+    partOfSpeech: "noun (n.)",
+    pinyin: "cáiliào",
+    meaning: "วัสดุ, เอกสาร, ข้อมูลประกอบ",
+    example: "请准备好申请材料。",
+    examplePinyin: "Qǐng zhǔnbèi hǎo shēnqǐng cáiliào.",
+    translation: "กรุณาเตรียมเอกสารสำหรับการสมัครให้พร้อม"
+  },
+  {
+    word: "采访",
+    partOfSpeech: "verb (v.) / noun (n.)",
+    pinyin: "cǎifǎng",
+    meaning: "สัมภาษณ์, การสัมภาษณ์",
+    example: "记者正在采访一位老师。",
+    examplePinyin: "Jìzhě zhèngzài cǎifǎng yí wèi lǎoshī.",
+    translation: "นักข่าวกำลังสัมภาษณ์คุณครูคนหนึ่ง"
+  },
+  {
+    word: "采取",
+    partOfSpeech: "verb (v.)",
+    pinyin: "cǎiqǔ",
+    meaning: "ใช้, ดำเนินมาตรการ",
+    example: "我们应该采取有效的方法。",
+    examplePinyin: "Wǒmen yīnggāi cǎiqǔ yǒuxiào de fāngfǎ.",
+    translation: "พวกเราควรใช้วิธีที่มีประสิทธิภาพ"
+  },
+  {
+    word: "踩",
+    partOfSpeech: "verb (v.)",
+    pinyin: "cǎi",
+    meaning: "เหยียบ",
+    example: "小心，别踩到我的脚。",
+    examplePinyin: "Xiǎoxīn, bié cǎi dào wǒ de jiǎo.",
+    translation: "ระวัง อย่าเหยียบเท้าฉัน"
+  },
+  {
+    word: "参考",
+    partOfSpeech: "verb (v.) / noun (n.)",
+    pinyin: "cānkǎo",
+    meaning: "อ้างอิง, ใช้ประกอบการพิจารณา",
+    example: "你可以参考这本书。",
+    examplePinyin: "Nǐ kěyǐ cānkǎo zhè běn shū.",
+    translation: "คุณสามารถใช้หนังสือเล่มนี้เป็นข้อมูลอ้างอิงได้"
+  },
+  {
+    word: "参与",
+    partOfSpeech: "verb (v.)",
+    pinyin: "cānyù",
+    meaning: "เข้าร่วม, มีส่วนร่วม",
+    example: "很多学生参与了这次活动。",
+    examplePinyin: "Hěn duō xuésheng cānyù le zhè cì huódòng.",
+    translation: "นักเรียนจำนวนมากเข้าร่วมกิจกรรมครั้งนี้"
+  },
+  {
+    word: "惭愧",
+    partOfSpeech: "adjective (adj.)",
+    pinyin: "cánkuì",
+    meaning: "ละอายใจ, รู้สึกผิด",
+    example: "我没有完成任务，感到很惭愧。",
+    examplePinyin: "Wǒ méiyǒu wánchéng rènwu, gǎndào hěn cánkuì.",
+    translation: "ฉันทำงานที่ได้รับมอบหมายไม่สำเร็จ จึงรู้สึกละอายใจมาก"
+  },
+  {
+    word: "操场",
+    partOfSpeech: "noun (n.)",
+    pinyin: "cāochǎng",
+    meaning: "สนามกีฬา, ลานกิจกรรมของโรงเรียน",
+    example: "学生们正在操场上跑步。",
+    examplePinyin: "Xuéshengmen zhèngzài cāochǎng shàng pǎobù.",
+    translation: "นักเรียนกำลังวิ่งอยู่ในสนาม"
+  },
+  {
+    word: "操心",
+    partOfSpeech: "verb (v.)",
+    pinyin: "cāoxīn",
+    meaning: "เป็นห่วง, กังวล",
+    example: "这件事你不用操心。",
+    examplePinyin: "Zhè jiàn shì nǐ bú yòng cāoxīn.",
+    translation: "เรื่องนี้คุณไม่ต้องกังวล"
+  },
+  {
+    word: "册",
+    partOfSpeech: "measure word (mw.)",
+    pinyin: "cè",
+    meaning: "เล่ม (ใช้กับหนังสือหรือสมุดบางประเภท)",
+    example: "我买了两册中文词典。",
+    examplePinyin: "Wǒ mǎi le liǎng cè Zhōngwén cídiǎn.",
+    translation: "ฉันซื้อพจนานุกรมภาษาจีนสองเล่ม"
+  },
+  {
+    word: "测验",
+    partOfSpeech: "noun (n.) / verb (v.)",
+    pinyin: "cèyàn",
+    meaning: "แบบทดสอบ, ทดสอบ",
+    example: "明天我们有一次中文测验。",
+    examplePinyin: "Míngtiān wǒmen yǒu yí cì Zhōngwén cèyàn.",
+    translation: "พรุ่งนี้พวกเรามีแบบทดสอบภาษาจีนหนึ่งครั้ง"
+  },
+  {
+    word: "曾经",
+    partOfSpeech: "adverb (adv.)",
+    pinyin: "céngjīng",
+    meaning: "เคย",
+    example: "我曾经在北京学习过。",
+    examplePinyin: "Wǒ céngjīng zài Běijīng xuéxí guo.",
+    translation: "ฉันเคยเรียนที่ปักกิ่ง"
+  },
+  {
+    word: "叉子",
+    partOfSpeech: "noun (n.)",
+    pinyin: "chāzi",
+    meaning: "ส้อม",
+    example: "请给我一把叉子。",
+    examplePinyin: "Qǐng gěi wǒ yì bǎ chāzi.",
+    translation: "ขอส้อมหนึ่งคันให้ฉันหน่อย"
+  },
+  {
+    word: "差不多",
+    partOfSpeech: "adjective (adj.) / adverb (adv.)",
+    pinyin: "chàbuduō",
+    meaning: "เกือบเท่ากัน, ใกล้เคียงกัน, ประมาณ",
+    example: "我们俩的年龄差不多。",
+    examplePinyin: "Wǒmen liǎ de niánlíng chàbuduō.",
+    translation: "อายุของเราสองคนใกล้เคียงกัน"
+  },
+  {
+    word: "差距",
+    partOfSpeech: "noun (n.)",
+    pinyin: "chājù",
+    meaning: "ช่องว่าง, ความแตกต่าง",
+    example: "我们之间的水平差距不大。",
+    examplePinyin: "Wǒmen zhījiān de shuǐpíng chājù bú dà.",
+    translation: "ระดับความสามารถของพวกเราแตกต่างกันไม่มาก"
+  },
+  {
+    word: "插",
+    partOfSpeech: "verb (v.)",
+    pinyin: "chā",
+    meaning: "เสียบ, ปัก, แทรก",
+    example: "请把花插在瓶子里。",
+    examplePinyin: "Qǐng bǎ huā chā zài píngzi lǐ.",
+    translation: "กรุณาปักดอกไม้ลงในแจกัน"
+  },
+  {
+    word: "拆",
+    partOfSpeech: "verb (v.)",
+    pinyin: "chāi",
+    meaning: "รื้อ, แกะออก, ถอดออก",
+    example: "他正在拆礼物。",
+    examplePinyin: "Tā zhèngzài chāi lǐwù.",
+    translation: "เขากำลังแกะของขวัญ"
+  },
+  {
+    word: "产品",
+    partOfSpeech: "noun (n.)",
+    pinyin: "chǎnpǐn",
+    meaning: "ผลิตภัณฑ์, สินค้า",
+    example: "这个公司的产品质量很好。",
+    examplePinyin: "Zhège gōngsī de chǎnpǐn zhìliàng hěn hǎo.",
+    translation: "คุณภาพสินค้าของบริษัทนี้ดีมาก"
+  },
+  {
+    word: "产生",
+    partOfSpeech: "verb (v.)",
+    pinyin: "chǎnshēng",
+    meaning: "เกิดขึ้น, ก่อให้เกิด",
+    example: "这个问题产生了很大的影响。",
+    examplePinyin: "Zhège wèntí chǎnshēng le hěn dà de yǐngxiǎng.",
+    translation: "ปัญหานี้ก่อให้เกิดผลกระทบอย่างมาก"
+  },
+  {
+    word: "长途",
+    partOfSpeech: "adjective (adj.) / noun (n.)",
+    pinyin: "chángtú",
+    meaning: "ระยะทางไกล, ทางไกล",
+    example: "经过长途旅行，我们终于到了。",
+    examplePinyin: "Jīngguò chángtú lǚxíng, wǒmen zhōngyú dào le.",
+    translation: "หลังจากเดินทางไกล ในที่สุดพวกเราก็มาถึง"
+  },
+  {
+    word: "常识",
+    partOfSpeech: "noun (n.)",
+    pinyin: "chángshí",
+    meaning: "ความรู้ทั่วไป, สามัญสำนึก",
+    example: "这些都是生活中的常识。",
+    examplePinyin: "Zhèxiē dōu shì shēnghuó zhōng de chángshí.",
+    translation: "สิ่งเหล่านี้ล้วนเป็นความรู้ทั่วไปในชีวิตประจำวัน"
+  },
+  {
+    word: "抄",
+    partOfSpeech: "verb (v.)",
+    pinyin: "chāo",
+    meaning: "คัดลอก, ลอก",
+    example: "请把这句话抄下来。",
+    examplePinyin: "Qǐng bǎ zhè jù huà chāo xiàlai.",
+    translation: "กรุณาคัดลอกประโยคนี้ลงมา"
+  },
+  {
+    word: "超级",
+    partOfSpeech: "adjective (adj.) / adverb (adv.)",
+    pinyin: "chāojí",
+    meaning: "สุดยอด, มากเป็นพิเศษ",
+    example: "这家餐厅的饭超级好吃。",
+    examplePinyin: "Zhè jiā cāntīng de fàn chāojí hǎochī.",
+    translation: "อาหารของร้านนี้อร่อยสุด ๆ"
+  },
+  {
+    word: "朝",
+    partOfSpeech: "preposition (prep.) / verb (v.)",
+    pinyin: "cháo",
+    meaning: "หันไปทาง, มุ่งหน้าไปทาง",
+    example: "请朝这个方向走。",
+    examplePinyin: "Qǐng cháo zhège fāngxiàng zǒu.",
+    translation: "กรุณาเดินไปทางนี้"
+  },
+  {
+    word: "潮湿",
+    partOfSpeech: "adjective (adj.)",
+    pinyin: "cháoshī",
+    meaning: "ชื้น, เปียกชื้น",
+    example: "南方的夏天比较潮湿。",
+    examplePinyin: "Nánfāng de xiàtiān bǐjiào cháoshī.",
+    translation: "ฤดูร้อนทางภาคใต้ค่อนข้างชื้น"
+  },
+  {
+    word: "吵",
+    partOfSpeech: "verb (v.) / adjective (adj.)",
+    pinyin: "chǎo",
+    meaning: "ส่งเสียงดัง, เสียงดังรบกวน",
+    example: "外面太吵了，我没办法学习。",
+    examplePinyin: "Wàimiàn tài chǎo le, wǒ méi bànfǎ xuéxí.",
+    translation: "ข้างนอกเสียงดังเกินไป ฉันเรียนไม่ได้"
+  },
+  {
+    word: "吵架",
+    partOfSpeech: "verb (v.)",
+    pinyin: "chǎojià",
+    meaning: "ทะเลาะกัน",
+    example: "他们昨天因为小事吵架了。",
+    examplePinyin: "Tāmen zuótiān yīnwèi xiǎoshì chǎojià le.",
+    translation: "เมื่อวานพวกเขาทะเลาะกันเพราะเรื่องเล็กน้อย"
+  },
+  {
+    word: "炒",
+    partOfSpeech: "verb (v.)",
+    pinyin: "chǎo",
+    meaning: "ผัด, คั่ว",
+    example: "爸爸正在厨房炒菜。",
+    examplePinyin: "Bàba zhèngzài chúfáng chǎo cài.",
+    translation: "พ่อกำลังผัดอาหารอยู่ในครัว"
+  },
+  {
+    word: "车库",
+    partOfSpeech: "noun (n.)",
+    pinyin: "chēkù",
+    meaning: "โรงจอดรถ",
+    example: "我的自行车放在车库里。",
+    examplePinyin: "Wǒ de zìxíngchē fàng zài chēkù lǐ.",
+    translation: "จักรยานของฉันจอดอยู่ในโรงจอดรถ"
+  },
+  {
+    word: "车厢",
+    partOfSpeech: "noun (n.)",
+    pinyin: "chēxiāng",
+    meaning: "ตู้โดยสาร, ห้องโดยสารของรถไฟ",
+    example: "这节车厢里有很多乘客。",
+    examplePinyin: "Zhè jié chēxiāng lǐ yǒu hěn duō chéngkè.",
+    translation: "ในตู้โดยสารนี้มีผู้โดยสารจำนวนมาก"
+  },
+  {
+    word: "彻底",
+    partOfSpeech: "adjective (adj.) / adverb (adv.)",
+    pinyin: "chèdǐ",
+    meaning: "อย่าง彻底, อย่าง彻底地",
+    example: "我们需要彻底解决这个问题。",
+    examplePinyin: "Wǒmen xūyào chèdǐ jiějué zhège wèntí.",
+    translation: "พวกเราจำเป็นต้องแก้ปัญหานี้ให้หมดสิ้น"
+  },
+  {
+    word: "沉默",
+    partOfSpeech: "verb (v.) / adjective (adj.)",
+    pinyin: "chénmò",
+    meaning: "เงียบ, นิ่งเงียบ",
+    example: "听到这个消息后，他沉默了很久。",
+    examplePinyin: "Tīng dào zhège xiāoxi hòu, tā chénmò le hěn jiǔ.",
+    translation: "หลังจากได้ยินข่าวนี้ เขาก็เงียบไปนาน"
+  },
+  {
+    word: "趁",
+    partOfSpeech: "preposition (prep.) / verb (v.)",
+    pinyin: "chèn",
+    meaning: "อาศัยจังหวะที่, ในขณะที่ยัง...",
+    example: "趁天气好，我们出去走走吧。",
+    examplePinyin: "Chèn tiānqì hǎo, wǒmen chūqu zǒuzou ba.",
+    translation: "ในเมื่ออากาศดี พวกเราออกไปเดินเล่นกันเถอะ"
+  }
 ];
