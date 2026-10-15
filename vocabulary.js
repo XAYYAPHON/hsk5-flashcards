@@ -1564,14 +1564,14 @@ const vocabulary = [
     meaning: "ไหล่, ไหล่",
     example: "他靠着肩膀。",
     examplePinyin: "Tā kào zhe jiānbǎng.",
-    translation: "เขา leaning on the shoulder",
+    translation: "เขาเอนตัวพิงไหล่",
 },
 
 {
     word: "蚊子",
     partOfSpeech: "noun (n.)",
     pinyin: "wénzi",
-    meaning: "แมลงวัน, แมลงวัน",
+    meaning: "แมลงวัน, ยุง",
     example: "蚊子咬了他。",
     examplePinyin: "Wénzi yǎo le tā.",
     translation: "แมลงวันกัดเขา",
