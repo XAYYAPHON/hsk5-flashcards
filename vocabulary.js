@@ -2517,5 +2517,2219 @@ const vocabulary = [
     example: "趁天气好，我们出去走走吧。",
     examplePinyin: "Chèn tiānqì hǎo, wǒmen chūqu zǒuzou ba.",
     translation: "ในเมื่ออากาศดี พวกเราออกไปเดินเล่นกันเถอะ"
-  }
+  },
+  {
+        word: "称",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chēng",
+        meaning: "เรียกว่า, เรียกขาน, ชั่งน้ำหนัก",
+        example: "大家都称他为老师。",
+        examplePinyin: "Dàjiā dōu chēng tā wéi lǎoshī.",
+        translation: "ทุกคนต่างเรียกเขาว่าคุณครู"
+    },
+    {
+        word: "称呼",
+        partOfSpeech: "noun (n.) / verb (v.)",
+        pinyin: "chēnghu",
+        meaning: "คำเรียก, เรียกขาน",
+        example: "我不知道该怎么称呼他。",
+        examplePinyin: "Wǒ bù zhīdào gāi zěnme chēnghu tā.",
+        translation: "ฉันไม่รู้ว่าควรเรียกเขาว่าอะไร"
+    },
+    {
+        word: "称赞",
+        partOfSpeech: "verb (v.) / noun (n.)",
+        pinyin: "chēngzàn",
+        meaning: "ชื่นชม, ยกย่อง",
+        example: "老师称赞了他的努力。",
+        examplePinyin: "Lǎoshī chēngzàn le tā de nǔlì.",
+        translation: "คุณครูชื่นชมความพยายามของเขา"
+    },
+    {
+        word: "成分",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chéngfèn",
+        meaning: "ส่วนประกอบ, องค์ประกอบ",
+        example: "这种饮料的成分很简单。",
+        examplePinyin: "Zhè zhǒng yǐnliào de chéngfèn hěn jiǎndān.",
+        translation: "ส่วนประกอบของเครื่องดื่มชนิดนี้เรียบง่ายมาก"
+    },
+    {
+        word: "成果",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chéngguǒ",
+        meaning: "ผลสำเร็จ, ผลงาน",
+        example: "经过努力，我们取得了很好的成果。",
+        examplePinyin: "Jīngguò nǔlì, wǒmen qǔdé le hěn hǎo de chéngguǒ.",
+        translation: "หลังจากพยายาม พวกเราก็ได้รับผลสำเร็จที่ดี"
+    },
+    {
+        word: "成就",
+        partOfSpeech: "noun (n.) / verb (v.)",
+        pinyin: "chéngjiù",
+        meaning: "ความสำเร็จ, ทำให้สำเร็จ",
+        example: "他在科学研究方面取得了很大的成就。",
+        examplePinyin: "Tā zài kēxué yánjiū fāngmiàn qǔdé le hěn dà de chéngjiù.",
+        translation: "เขาประสบความสำเร็จอย่างมากด้านการวิจัยทางวิทยาศาสตร์"
+    },
+    {
+        word: "成立",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chénglì",
+        meaning: "ก่อตั้ง, จัดตั้ง, เป็นจริงหรือสมเหตุสมผล",
+        example: "这家公司成立于二零一零年。",
+        examplePinyin: "Zhè jiā gōngsī chénglì yú èr líng yī líng nián.",
+        translation: "บริษัทนี้ก่อตั้งขึ้นในปี 2010"
+    },
+    {
+        word: "成人",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chéngrén",
+        meaning: "ผู้ใหญ่, บรรลุนิติภาวะ",
+        example: "他已经是一个成年人了。",
+        examplePinyin: "Tā yǐjīng shì yí ge chéngniánrén le.",
+        translation: "เขาเป็นผู้ใหญ่แล้ว"
+    },
+    {
+        word: "成熟",
+        partOfSpeech: "adjective (adj.) / verb (v.)",
+        pinyin: "chéngshú",
+        meaning: "สุก, เติบโตเต็มที่, เป็นผู้ใหญ่",
+        example: "他的想法越来越成熟。",
+        examplePinyin: "Tā de xiǎngfǎ yuèláiyuè chéngshú.",
+        translation: "ความคิดของเขาเป็นผู้ใหญ่มากขึ้นเรื่อย ๆ"
+    },
+    {
+        word: "成语",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chéngyǔ",
+        meaning: "สำนวนจีน",
+        example: "学习中文时，我们应该多学习成语。",
+        examplePinyin: "Xuéxí Zhōngwén shí, wǒmen yīnggāi duō xuéxí chéngyǔ.",
+        translation: "เวลาเรียนภาษาจีน พวกเราควรเรียนสำนวนจีนให้มาก"
+    },
+    {
+        word: "成长",
+        partOfSpeech: "verb (v.) / noun (n.)",
+        pinyin: "chéngzhǎng",
+        meaning: "เติบโต, การเติบโต",
+        example: "孩子们在快乐中成长。",
+        examplePinyin: "Háizimen zài kuàilè zhōng chéngzhǎng.",
+        translation: "เด็ก ๆ เติบโตขึ้นอย่างมีความสุข"
+    },
+    {
+        word: "诚恳",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "chéngkěn",
+        meaning: "จริงใจ, ด้วยความจริงใจ",
+        example: "他诚恳地向大家道歉。",
+        examplePinyin: "Tā chéngkěn de xiàng dàjiā dàoqiàn.",
+        translation: "เขาขอโทษทุกคนอย่างจริงใจ"
+    },
+    {
+        word: "承认",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chéngrèn",
+        meaning: "ยอมรับ, รับสารภาพ",
+        example: "他承认自己犯了错误。",
+        examplePinyin: "Tā chéngrèn zìjǐ fàn le cuòwù.",
+        translation: "เขายอมรับว่าตัวเองทำผิด"
+    },
+    {
+        word: "承受",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chéngshòu",
+        meaning: "แบกรับ, ทนรับ, รับภาระ",
+        example: "他承受着很大的压力。",
+        examplePinyin: "Tā chéngshòu zhe hěn dà de yālì.",
+        translation: "เขากำลังแบกรับความกดดันอย่างมาก"
+    },
+    {
+        word: "程度",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chéngdù",
+        meaning: "ระดับ, ขอบเขต, ระดับความรุนแรง",
+        example: "他的中文达到了很高的程度。",
+        examplePinyin: "Tā de Zhōngwén dádào le hěn gāo de chéngdù.",
+        translation: "ภาษาจีนของเขาอยู่ในระดับสูงมาก"
+    },
+    {
+        word: "吃亏",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chīkuī",
+        meaning: "เสียเปรียบ, ขาดทุน",
+        example: "不懂规则很容易吃亏。",
+        examplePinyin: "Bù dǒng guīzé hěn róngyì chīkuī.",
+        translation: "ถ้าไม่เข้าใจกฎก็เสียเปรียบได้ง่าย"
+    },
+    {
+        word: "池塘",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chítáng",
+        meaning: "สระน้ำ, บ่อน้ำ",
+        example: "池塘里有很多鱼。",
+        examplePinyin: "Chítáng lǐ yǒu hěn duō yú.",
+        translation: "ในสระน้ำมีปลาจำนวนมาก"
+    },
+    {
+        word: "迟早",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "chízǎo",
+        meaning: "ไม่ช้าก็เร็ว, สักวันหนึ่ง",
+        example: "只要坚持努力，迟早会成功。",
+        examplePinyin: "Zhǐyào jiānchí nǔlì, chízǎo huì chénggōng.",
+        translation: "ขอเพียงพยายามต่อไป ไม่ช้าก็เร็วก็จะประสบความสำเร็จ"
+    },
+    {
+        word: "持续",
+        partOfSpeech: "verb (v.) / adjective (adj.)",
+        pinyin: "chíxù",
+        meaning: "ดำเนินต่อไป, ต่อเนื่อง",
+        example: "这场雨持续了三个小时。",
+        examplePinyin: "Zhè chǎng yǔ chíxù le sān ge xiǎoshí.",
+        translation: "ฝนตกต่อเนื่องเป็นเวลาสามชั่วโมง"
+    },
+    {
+        word: "尺子",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chǐzi",
+        meaning: "ไม้บรรทัด",
+        example: "请用尺子画一条直线。",
+        examplePinyin: "Qǐng yòng chǐzi huà yì tiáo zhíxiàn.",
+        translation: "กรุณาใช้ไม้บรรทัดวาดเส้นตรงหนึ่งเส้น"
+    },
+    {
+        word: "翅膀",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chìbǎng",
+        meaning: "ปีก",
+        example: "鸟儿展开翅膀飞向天空。",
+        examplePinyin: "Niǎor zhǎnkāi chìbǎng fēi xiàng tiānkōng.",
+        translation: "นกกางปีกบินขึ้นสู่ท้องฟ้า"
+    },
+    {
+        word: "充电器",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chōngdiànqì",
+        meaning: "ที่ชาร์จแบตเตอรี่",
+        example: "我的手机充电器在哪里？",
+        examplePinyin: "Wǒ de shǒujī chōngdiànqì zài nǎlǐ?",
+        translation: "ที่ชาร์จโทรศัพท์ของฉันอยู่ที่ไหน"
+    },
+    {
+        word: "充分",
+        partOfSpeech: "adjective (adj.) / adverb (adv.)",
+        pinyin: "chōngfèn",
+        meaning: "เพียงพอ, อย่างเต็มที่",
+        example: "考试前要做好充分的准备。",
+        examplePinyin: "Kǎoshì qián yào zuò hǎo chōngfèn de zhǔnbèi.",
+        translation: "ก่อนสอบต้องเตรียมตัวให้พร้อมอย่างเต็มที่"
+    },
+    {
+        word: "冲",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chōng",
+        meaning: "พุ่งเข้าใส่, ชะล้าง, ล้างด้วยน้ำ",
+        example: "他冲进房间找手机。",
+        examplePinyin: "Tā chōng jìn fángjiān zhǎo shǒujī.",
+        translation: "เขาพุ่งเข้าไปในห้องเพื่อหาโทรศัพท์"
+    },
+    {
+        word: "重复",
+        partOfSpeech: "verb (v.) / adjective (adj.)",
+        pinyin: "chóngfù",
+        meaning: "ทำซ้ำ, ซ้ำกัน",
+        example: "请把这个句子重复一遍。",
+        examplePinyin: "Qǐng bǎ zhège jùzi chóngfù yí biàn.",
+        translation: "กรุณาพูดประโยคนี้ซ้ำอีกหนึ่งครั้ง"
+    },
+    {
+        word: "宠物",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chǒngwù",
+        meaning: "สัตว์เลี้ยง",
+        example: "我家有一只可爱的宠物猫。",
+        examplePinyin: "Wǒ jiā yǒu yì zhī kě'ài de chǒngwù māo.",
+        translation: "บ้านฉันมีแมวสัตว์เลี้ยงที่น่ารักหนึ่งตัว"
+    },
+    {
+        word: "抽屉",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chōuti",
+        meaning: "ลิ้นชัก",
+        example: "钥匙放在桌子的抽屉里。",
+        examplePinyin: "Yàoshi fàng zài zhuōzi de chōuti lǐ.",
+        translation: "กุญแจวางอยู่ในลิ้นชักของโต๊ะ"
+    },
+    {
+        word: "抽象",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "chōuxiàng",
+        meaning: "นามธรรม, เป็นนามธรรม",
+        example: "这个概念比较抽象。",
+        examplePinyin: "Zhège gàiniàn bǐjiào chōuxiàng.",
+        translation: "แนวคิดนี้ค่อนข้างเป็นนามธรรม"
+    },
+    {
+        word: "丑",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "chǒu",
+        meaning: "น่าเกลียด, ไม่สวย",
+        example: "这幅画一点儿也不丑。",
+        examplePinyin: "Zhè fú huà yìdiǎnr yě bù chǒu.",
+        translation: "ภาพนี้ไม่ได้ดูน่าเกลียดเลยแม้แต่น้อย"
+    },
+    {
+        word: "臭",
+        partOfSpeech: "adjective (adj.) / verb (v.)",
+        pinyin: "chòu",
+        meaning: "เหม็น, มีกลิ่นไม่ดี",
+        example: "这些鱼放太久了，闻起来很臭。",
+        examplePinyin: "Zhèxiē yú fàng tài jiǔ le, wén qǐlái hěn chòu.",
+        translation: "ปลาเหล่านี้วางไว้นานเกินไป จึงมีกลิ่นเหม็นมาก"
+    },
+    {
+        word: "出版",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chūbǎn",
+        meaning: "ตีพิมพ์, จัดพิมพ์",
+        example: "他的第一本书明年出版。",
+        examplePinyin: "Tā de dì-yī běn shū míngnián chūbǎn.",
+        translation: "หนังสือเล่มแรกของเขาจะตีพิมพ์ในปีหน้า"
+    },
+    {
+        word: "出口",
+        partOfSpeech: "noun (n.) / verb (v.)",
+        pinyin: "chūkǒu",
+        meaning: "ทางออก, ส่งออก",
+        example: "请从那个出口离开。",
+        examplePinyin: "Qǐng cóng nàge chūkǒu líkāi.",
+        translation: "กรุณาออกทางประตูทางออกนั้น"
+    },
+    {
+        word: "出色",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "chūsè",
+        meaning: "โดดเด่น, ยอดเยี่ยม",
+        example: "他在比赛中的表现非常出色。",
+        examplePinyin: "Tā zài bǐsài zhōng de biǎoxiàn fēicháng chūsè.",
+        translation: "ผลงานของเขาในการแข่งขันโดดเด่นมาก"
+    },
+    {
+        word: "出示",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chūshì",
+        meaning: "แสดงให้ดู, ยื่นให้ตรวจสอบ",
+        example: "进入大楼前，请出示学生证。",
+        examplePinyin: "Jìnrù dàlóu qián, qǐng chūshì xuéshengzhèng.",
+        translation: "ก่อนเข้าอาคาร กรุณาแสดงบัตรนักศึกษา"
+    },
+    {
+        word: "出席",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chūxí",
+        meaning: "เข้าร่วม, เข้าประชุม",
+        example: "经理出席了今天的会议。",
+        examplePinyin: "Jīnglǐ chūxí le jīntiān de huìyì.",
+        translation: "ผู้จัดการเข้าร่วมการประชุมวันนี้"
+    },
+    {
+        word: "初级",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "chūjí",
+        meaning: "ระดับต้น, ขั้นพื้นฐาน",
+        example: "这是一门初级中文课程。",
+        examplePinyin: "Zhè shì yì mén chūjí Zhōngwén kèchéng.",
+        translation: "นี่คือหลักสูตรภาษาจีนระดับต้น"
+    },
+    {
+        word: "除非",
+        partOfSpeech: "conjunction (conj.)",
+        pinyin: "chúfēi",
+        meaning: "เว้นแต่ว่า, นอกจากว่า",
+        example: "除非下雨，否则我们就去打球。",
+        examplePinyin: "Chúfēi xiàyǔ, fǒuzé wǒmen jiù qù dǎ qiú.",
+        translation: "เว้นแต่ฝนจะตก ไม่อย่างนั้นพวกเราก็จะไปเล่นกีฬา"
+    },
+    {
+        word: "除夕",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chúxī",
+        meaning: "วันส่งท้ายปีเก่าตามปฏิทินจีน",
+        example: "除夕晚上，全家人一起吃年夜饭。",
+        examplePinyin: "Chúxī wǎnshang, quán jiā rén yìqǐ chī niányèfàn.",
+        translation: "ในคืนวันส่งท้ายปีเก่าจีน ทุกคนในครอบครัวกินอาหารมื้อพิเศษด้วยกัน"
+    },
+    {
+        word: "处理",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chǔlǐ",
+        meaning: "จัดการ, ดำเนินการ, แก้ไข",
+        example: "我会尽快处理这个问题。",
+        examplePinyin: "Wǒ huì jǐnkuài chǔlǐ zhège wèntí.",
+        translation: "ฉันจะจัดการปัญหานี้ให้เร็วที่สุด"
+    },
+    {
+        word: "穿",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chuān",
+        meaning: "สวมใส่, ใส่เสื้อผ้า",
+        example: "今天很冷，记得穿外套。",
+        examplePinyin: "Jīntiān hěn lěng, jìde chuān wàitào.",
+        translation: "วันนี้หนาวมาก อย่าลืมสวมเสื้อคลุม"
+    },
+    {
+        word: "传播",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chuánbō",
+        meaning: "เผยแพร่, แพร่กระจาย",
+        example: "互联网可以快速传播信息。",
+        examplePinyin: "Hùliánwǎng kěyǐ kuàisù chuánbō xìnxī.",
+        translation: "อินเทอร์เน็ตสามารถเผยแพร่ข้อมูลได้อย่างรวดเร็ว"
+    },
+    {
+        word: "传染",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chuánrǎn",
+        meaning: "แพร่เชื้อ, ติดต่อ",
+        example: "这种疾病可能会传染给别人。",
+        examplePinyin: "Zhè zhǒng jíbìng kěnéng huì chuánrǎn gěi biérén.",
+        translation: "โรคชนิดนี้อาจแพร่เชื้อไปยังผู้อื่นได้"
+    },
+    {
+        word: "传说",
+        partOfSpeech: "noun (n.) / verb (v.)",
+        pinyin: "chuánshuō",
+        meaning: "ตำนาน, เล่าลือกันว่า",
+        example: "这个地方有一个古老的传说。",
+        examplePinyin: "Zhège dìfang yǒu yí ge gǔlǎo de chuánshuō.",
+        translation: "สถานที่แห่งนี้มีตำนานเก่าแก่อยู่เรื่องหนึ่ง"
+    },
+    {
+        word: "传统",
+        partOfSpeech: "noun (n.) / adjective (adj.)",
+        pinyin: "chuántǒng",
+        meaning: "ประเพณี, ธรรมเนียม, แบบดั้งเดิม",
+        example: "春节是中国的重要传统节日。",
+        examplePinyin: "Chūnjié shì Zhōngguó de zhòngyào chuántǒng jiérì.",
+        translation: "เทศกาลตรุษจีนเป็นเทศกาลดั้งเดิมที่สำคัญของจีน"
+    },
+    {
+        word: "窗帘",
+        partOfSpeech: "noun (n.)",
+        pinyin: "chuānglián",
+        meaning: "ผ้าม่าน",
+        example: "请把窗帘拉开。",
+        examplePinyin: "Qǐng bǎ chuānglián lā kāi.",
+        translation: "กรุณาเปิดม่านออก"
+    },
+    {
+        word: "闯",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chuǎng",
+        meaning: "บุกเข้าไป, ฝ่าเข้าไป, ลุย",
+        example: "他没有敲门就闯进了房间。",
+        examplePinyin: "Tā méiyǒu qiāo mén jiù chuǎng jìn le fángjiān.",
+        translation: "เขาบุกเข้าไปในห้องโดยไม่เคาะประตู"
+    },
+    {
+        word: "创造",
+        partOfSpeech: "verb (v.) / noun (n.)",
+        pinyin: "chuàngzào",
+        meaning: "สร้างสรรค์, สร้างสิ่งใหม่",
+        example: "我们要努力创造更好的未来。",
+        examplePinyin: "Wǒmen yào nǔlì chuàngzào gèng hǎo de wèilái.",
+        translation: "พวกเราต้องพยายามสร้างอนาคตที่ดีกว่า"
+    },
+    {
+        word: "吹",
+        partOfSpeech: "verb (v.)",
+        pinyin: "chuī",
+        meaning: "เป่า, พัด",
+        example: "风吹进了房间。",
+        examplePinyin: "Fēng chuī jìn le fángjiān.",
+        translation: "ลมพัดเข้ามาในห้อง"
+    },
+    {
+        word: "词汇",
+        partOfSpeech: "noun (n.)",
+        pinyin: "cíhuì",
+        meaning: "คำศัพท์, คลังคำศัพท์",
+        example: "学习一门语言需要积累词汇。",
+        examplePinyin: "Xuéxí yì mén yǔyán xūyào jīlěi cíhuì.",
+        translation: "การเรียนภาษาใดภาษาหนึ่งจำเป็นต้องสะสมคำศัพท์"
+    },
+    {
+        word: "辞职",
+        partOfSpeech: "verb (v.)",
+        pinyin: "cízhí",
+        meaning: "ลาออกจากงาน",
+        example: "他决定辞职去学习新的技能。",
+        examplePinyin: "Tā juédìng cízhí qù xuéxí xīn de jìnéng.",
+        translation: "เขาตัดสินใจลาออกจากงานเพื่อไปเรียนรู้ทักษะใหม่"
+    },
+    {
+        word: "此外",
+        partOfSpeech: "conjunction (conj.) / adverb (adv.)",
+        pinyin: "cǐwài",
+        meaning: "นอกจากนี้, อีกทั้ง",
+        example: "这本书很有趣，此外也很实用。",
+        examplePinyin: "Zhè běn shū hěn yǒuqù, cǐwài yě hěn shíyòng.",
+        translation: "หนังสือเล่มนี้น่าสนใจ นอกจากนี้ยังมีประโยชน์มาก"
+    },
+    {
+        word: "次要",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "cìyào",
+        meaning: "รองลงมา, ไม่ใช่สิ่งสำคัญที่สุด",
+        example: "我们应该先解决主要问题，再处理次要问题。",
+        examplePinyin: "Wǒmen yīnggāi xiān jiějué zhǔyào wèntí, zài chǔlǐ cìyào wèntí.",
+        translation: "พวกเราควรแก้ปัญหาหลักก่อน แล้วจึงจัดการปัญหารอง"
+    },
+    {
+        word: "刺激",
+        partOfSpeech: "verb (v.) / adjective (adj.) / noun (n.)",
+        pinyin: "cìjī",
+        meaning: "กระตุ้น, เร้าใจ, สิ่งกระตุ้น",
+        example: "咖啡因会刺激人的神经系统。",
+        examplePinyin: "Kāfēiyīn huì cìjī rén de shénjīng xìtǒng.",
+        translation: "คาเฟอีนสามารถกระตุ้นระบบประสาทของคนได้"
+    },
+    {
+        word: "匆忙",
+        partOfSpeech: "adjective (adj.) / adverb (adv.)",
+        pinyin: "cōngmáng",
+        meaning: "รีบร้อน, อย่างเร่งรีบ",
+        example: "他匆忙地吃完早饭就出门了。",
+        examplePinyin: "Tā cōngmáng de chī wán zǎofàn jiù chūmén le.",
+        translation: "เขารีบกินอาหารเช้าให้เสร็จแล้วก็ออกจากบ้าน"
+    },
+    {
+        word: "从此",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "cóngcǐ",
+        meaning: "นับจากนี้, ตั้งแต่นั้นเป็นต้นมา",
+        example: "从此以后，我们成了好朋友。",
+        examplePinyin: "Cóngcǐ yǐhòu, wǒmen chéng le hǎo péngyou.",
+        translation: "นับตั้งแต่นั้นเป็นต้นมา พวกเราก็กลายเป็นเพื่อนสนิทกัน"
+    },
+    {
+        word: "从而",
+        partOfSpeech: "conjunction (conj.)",
+        pinyin: "cóng'ér",
+        meaning: "ด้วยเหตุนี้จึง, ส่งผลให้",
+        example: "我们需要多练习，从而提高中文水平。",
+        examplePinyin: "Wǒmen xūyào duō liànxí, cóng'ér tígāo Zhōngwén shuǐpíng.",
+        translation: "พวกเราต้องฝึกฝนให้มาก เพื่อพัฒนาระดับภาษาจีน"
+    },
+    {
+        word: "从前",
+        partOfSpeech: "noun (n.) / adverb (adv.)",
+        pinyin: "cóngqián",
+        meaning: "เมื่อก่อน, ในอดีต",
+        example: "从前，这里有一座小村庄。",
+        examplePinyin: "Cóngqián, zhèlǐ yǒu yí zuò xiǎo cūnzhuāng.",
+        translation: "เมื่อก่อน ที่นี่มีหมู่บ้านเล็ก ๆ แห่งหนึ่ง"
+    },
+    {
+        word: "从事",
+        partOfSpeech: "verb (v.)",
+        pinyin: "cóngshì",
+        meaning: "ประกอบอาชีพ, ทำงานด้าน",
+        example: "他从事软件开发工作。",
+        examplePinyin: "Tā cóngshì ruǎnjiàn kāifā gōngzuò.",
+        translation: "เขาทำงานด้านการพัฒนาซอฟต์แวร์"
+    },
+    {
+        word: "粗糙",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "cūcāo",
+        meaning: "หยาบ, ขรุขระ, ไม่ประณีต",
+        example: "这张纸的表面很粗糙。",
+        examplePinyin: "Zhè zhāng zhǐ de biǎomiàn hěn cūcāo.",
+        translation: "พื้นผิวของกระดาษแผ่นนี้หยาบมาก"
+    },
+    {
+        word: "促进",
+        partOfSpeech: "verb (v.)",
+        pinyin: "cùjìn",
+        meaning: "ส่งเสริม, ช่วยให้พัฒนา",
+        example: "运动可以促进身体健康。",
+        examplePinyin: "Yùndòng kěyǐ cùjìn shēntǐ jiànkāng.",
+        translation: "การออกกำลังกายช่วยส่งเสริมสุขภาพร่างกาย"
+    },
+    {
+        word: "促使",
+        partOfSpeech: "verb (v.)",
+        pinyin: "cùshǐ",
+        meaning: "ผลักดันให้, ทำให้เกิด",
+        example: "这次经历促使他改变了想法。",
+        examplePinyin: "Zhè cì jīnglì cùshǐ tā gǎibiàn le xiǎngfǎ.",
+        translation: "ประสบการณ์ครั้งนี้ผลักดันให้เขาเปลี่ยนความคิด"
+    },
+     {
+        word: "醋",
+        partOfSpeech: "noun (n.)",
+        pinyin: "cù",
+        meaning: "น้ำส้มสายชู",
+        example: "做菜的时候可以加一点儿醋。",
+        examplePinyin: "Zuò cài de shíhou kěyǐ jiā yìdiǎnr cù.",
+        translation: "ตอนทำอาหารสามารถเติมน้ำส้มสายชูเล็กน้อยได้"
+    },
+    {
+        word: "崔",
+        partOfSpeech: "proper noun (prop. n.)",
+        pinyin: "Cuī",
+        meaning: "แซ่ชุย",
+        example: "崔老师今天不在学校。",
+        examplePinyin: "Cuī lǎoshī jīntiān bú zài xuéxiào.",
+        translation: "วันนี้อาจารย์ชุยไม่อยู่ที่โรงเรียน"
+    },
+    {
+        word: "存",
+        partOfSpeech: "verb (v.)",
+        pinyin: "cún",
+        meaning: "เก็บไว้, ฝากเงิน, คงอยู่",
+        example: "我想把钱存在银行里。",
+        examplePinyin: "Wǒ xiǎng bǎ qián cún zài yínháng lǐ.",
+        translation: "ฉันอยากฝากเงินไว้ในธนาคาร"
+    },
+    {
+        word: "存在",
+        partOfSpeech: "verb (v.) / noun (n.)",
+        pinyin: "cúnzài",
+        meaning: "มีอยู่, ดำรงอยู่, การมีอยู่",
+        example: "这个问题仍然存在。",
+        examplePinyin: "Zhège wèntí réngrán cúnzài.",
+        translation: "ปัญหานี้ยังคงมีอยู่"
+    },
+    {
+        word: "措施",
+        partOfSpeech: "noun (n.)",
+        pinyin: "cuòshī",
+        meaning: "มาตรการ, วิธีการจัดการ",
+        example: "学校采取了安全措施。",
+        examplePinyin: "Xuéxiào cǎiqǔ le ānquán cuòshī.",
+        translation: "โรงเรียนใช้มาตรการด้านความปลอดภัย"
+    },
+    {
+        word: "答应",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dāying",
+        meaning: "ตกลง, รับปาก, ยอมรับคำขอ",
+        example: "他答应帮助我学习中文。",
+        examplePinyin: "Tā dāying bāngzhù wǒ xuéxí Zhōngwén.",
+        translation: "เขารับปากว่าจะช่วยฉันเรียนภาษาจีน"
+    },
+    {
+        word: "达到",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dádào",
+        meaning: "ไปถึง, บรรลุ, ทำได้ถึงระดับ",
+        example: "我的目标是达到HSK五级水平。",
+        examplePinyin: "Wǒ de mùbiāo shì dádào HSK wǔ jí shuǐpíng.",
+        translation: "เป้าหมายของฉันคือการไปให้ถึงระดับ HSK 5"
+    },
+    {
+        word: "打工",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dǎgōng",
+        meaning: "ทำงานรับจ้าง, ทำงานพิเศษ",
+        example: "他周末在餐厅打工。",
+        examplePinyin: "Tā zhōumò zài cāntīng dǎgōng.",
+        translation: "วันหยุดสุดสัปดาห์เขาทำงานพิเศษที่ร้านอาหาร"
+    },
+    {
+        word: "打交道",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dǎ jiāodao",
+        meaning: "ติดต่อ, มีปฏิสัมพันธ์กับ",
+        example: "我的工作需要经常跟客户打交道。",
+        examplePinyin: "Wǒ de gōngzuò xūyào jīngcháng gēn kèhù dǎ jiāodao.",
+        translation: "งานของฉันต้องติดต่อกับลูกค้าอยู่บ่อย ๆ"
+    },
+    {
+        word: "打喷嚏",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dǎ pēntì",
+        meaning: "จาม",
+        example: "他感冒了，一直打喷嚏。",
+        examplePinyin: "Tā gǎnmào le, yìzhí dǎ pēntì.",
+        translation: "เขาเป็นหวัดและจามอยู่ตลอด"
+    },
+    {
+        word: "打听",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dǎting",
+        meaning: "สอบถาม, สืบถามข้อมูล",
+        example: "我想打听一下去机场的路。",
+        examplePinyin: "Wǒ xiǎng dǎting yíxià qù jīchǎng de lù.",
+        translation: "ฉันอยากสอบถามเส้นทางไปสนามบินหน่อย"
+    },
+    {
+        word: "大方",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "dàfang",
+        meaning: "ใจกว้าง, สง่างาม, ไม่เคอะเขิน",
+        example: "她是一个很大方的人。",
+        examplePinyin: "Tā shì yí ge hěn dàfang de rén.",
+        translation: "เธอเป็นคนใจกว้างมาก"
+    },
+    {
+        word: "大厦",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dàshà",
+        meaning: "อาคารขนาดใหญ่, ตึกสูง",
+        example: "那座大厦有三十层。",
+        examplePinyin: "Nà zuò dàshà yǒu sānshí céng.",
+        translation: "อาคารหลังนั้นมีสามสิบชั้น"
+    },
+    {
+        word: "大象",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dàxiàng",
+        meaning: "ช้าง",
+        example: "大象有很长的鼻子。",
+        examplePinyin: "Dàxiàng yǒu hěn cháng de bízi.",
+        translation: "ช้างมีงวงที่ยาวมาก"
+    },
+    {
+        word: "大型",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "dàxíng",
+        meaning: "ขนาดใหญ่, ประเภทใหญ่",
+        example: "学校明天要举办大型活动。",
+        examplePinyin: "Xuéxiào míngtiān yào jǔbàn dàxíng huódòng.",
+        translation: "พรุ่งนี้โรงเรียนจะจัดกิจกรรมขนาดใหญ่"
+    },
+    {
+        word: "呆",
+        partOfSpeech: "verb (v.) / adjective (adj.)",
+        pinyin: "dāi",
+        meaning: "อยู่, พักอยู่; เซ่อ, เหม่อ",
+        example: "我打算在中国多呆几天。",
+        examplePinyin: "Wǒ dǎsuàn zài Zhōngguó duō dāi jǐ tiān.",
+        translation: "ฉันวางแผนจะอยู่ที่จีนต่ออีกหลายวัน"
+    },
+    {
+        word: "代表",
+        partOfSpeech: "noun (n.) / verb (v.)",
+        pinyin: "dàibiǎo",
+        meaning: "ตัวแทน, เป็นตัวแทน, หมายถึง",
+        example: "他代表我们班参加比赛。",
+        examplePinyin: "Tā dàibiǎo wǒmen bān cānjiā bǐsài.",
+        translation: "เขาเป็นตัวแทนห้องของเราเข้าร่วมการแข่งขัน"
+    },
+    {
+        word: "代替",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dàitì",
+        meaning: "แทนที่, ทำแทน",
+        example: "没有人可以代替你。",
+        examplePinyin: "Méiyǒu rén kěyǐ dàitì nǐ.",
+        translation: "ไม่มีใครสามารถแทนที่คุณได้"
+    },
+    {
+        word: "贷款",
+        partOfSpeech: "noun (n.) / verb (v.)",
+        pinyin: "dàikuǎn",
+        meaning: "เงินกู้, กู้เงิน",
+        example: "他向银行申请了贷款。",
+        examplePinyin: "Tā xiàng yínháng shēnqǐng le dàikuǎn.",
+        translation: "เขายื่นขอเงินกู้จากธนาคาร"
+    },
+    {
+        word: "待遇",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dàiyù",
+        meaning: "สวัสดิการ, ค่าตอบแทน, การปฏิบัติที่ได้รับ",
+        example: "这家公司的待遇不错。",
+        examplePinyin: "Zhè jiā gōngsī de dàiyù búcuò.",
+        translation: "สวัสดิการและค่าตอบแทนของบริษัทนี้ค่อนข้างดี"
+    },
+    {
+        word: "担任",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dānrèn",
+        meaning: "ดำรงตำแหน่ง, รับหน้าที่",
+        example: "她担任我们班的班长。",
+        examplePinyin: "Tā dānrèn wǒmen bān de bānzhǎng.",
+        translation: "เธอดำรงตำแหน่งหัวหน้าห้องของเรา"
+    },
+    {
+        word: "单纯",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "dānchún",
+        meaning: "เรียบง่าย, บริสุทธิ์ใจ, ไม่ซับซ้อน",
+        example: "他的想法很单纯。",
+        examplePinyin: "Tā de xiǎngfǎ hěn dānchún.",
+        translation: "ความคิดของเขาเรียบง่ายมาก"
+    },
+    {
+        word: "单调",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "dāndiào",
+        meaning: "จำเจ, ซ้ำซาก, ไม่น่าสนใจ",
+        example: "每天做同样的事情很单调。",
+        examplePinyin: "Měitiān zuò tóngyàng de shìqing hěn dāndiào.",
+        translation: "การทำสิ่งเดิมทุกวันเป็นเรื่องจำเจมาก"
+    },
+    {
+        word: "单独",
+        partOfSpeech: "adverb (adv.) / adjective (adj.)",
+        pinyin: "dāndú",
+        meaning: "ตามลำพัง, แยกต่างหาก",
+        example: "我想单独跟老师谈谈。",
+        examplePinyin: "Wǒ xiǎng dāndú gēn lǎoshī tántan.",
+        translation: "ฉันอยากคุยกับคุณครูเป็นการส่วนตัว"
+    },
+    {
+        word: "单位",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dānwèi",
+        meaning: "หน่วย, หน่วยงาน, สถานที่ทำงาน",
+        example: "请写上长度的单位。",
+        examplePinyin: "Qǐng xiě shàng chángdù de dānwèi.",
+        translation: "กรุณาเขียนหน่วยของความยาวลงไปด้วย"
+    },
+    {
+        word: "单元",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dānyuán",
+        meaning: "หน่วยการเรียน, บท, ยูนิต",
+        example: "我们今天学习第三单元。",
+        examplePinyin: "Wǒmen jīntiān xuéxí dì sān dānyuán.",
+        translation: "วันนี้พวกเราเรียนหน่วยที่สาม"
+    },
+    {
+        word: "耽误",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dānwu",
+        meaning: "ทำให้ล่าช้า, เสียเวลา",
+        example: "别耽误时间了，我们快走吧。",
+        examplePinyin: "Bié dānwu shíjiān le, wǒmen kuài zǒu ba.",
+        translation: "อย่าเสียเวลาเลย พวกเรารีบไปกันเถอะ"
+    },
+    {
+        word: "胆小鬼",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dǎnxiǎoguǐ",
+        meaning: "คนขี้ขลาด, คนขี้กลัว",
+        example: "别害怕，别做胆小鬼。",
+        examplePinyin: "Bié hàipà, bié zuò dǎnxiǎoguǐ.",
+        translation: "อย่ากลัวเลย อย่าทำตัวเป็นคนขี้ขลาด"
+    },
+    {
+        word: "当地",
+        partOfSpeech: "noun (n.) / adjective (adj.)",
+        pinyin: "dāngdì",
+        meaning: "ท้องถิ่น, ในพื้นที่นั้น",
+        example: "我们想尝尝当地的美食。",
+        examplePinyin: "Wǒmen xiǎng chángchang dāngdì de měishí.",
+        translation: "พวกเราอยากลองชิมอาหารท้องถิ่น"
+    },
+    {
+        word: "当心",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dāng xīn",
+        meaning: "ระวัง, ระมัดระวัง",
+        example: "路上很滑，走路要当心。",
+        examplePinyin: "Lù shàng hěn huá, zǒulù yào dāng xīn.",
+        translation: "ถนนลื่นมาก เวลาเดินต้องระวัง"
+    },
+    {
+        word: "档",
+        partOfSpeech: "measure word (mw.) / noun (n.)",
+        pinyin: "dàng",
+        meaning: "ระดับ, ประเภท, ช่องหรือ档位ของอุปกรณ์",
+        example: "请把空调调到低档。",
+        examplePinyin: "Qǐng bǎ kōngtiáo tiáo dào dī dàng.",
+        translation: "กรุณาปรับเครื่องปรับอากาศไปที่ระดับต่ำ"
+    },
+    {
+        word: "导演",
+        partOfSpeech: "noun (n.) / verb (v.)",
+        pinyin: "dǎoyǎn",
+        meaning: "ผู้กำกับ, กำกับภาพยนตร์",
+        example: "这部电影是由一位年轻导演拍摄的。",
+        examplePinyin: "Zhè bù diànyǐng shì yóu yí wèi niánqīng dǎoyǎn pāishè de.",
+        translation: "ภาพยนตร์เรื่องนี้ถ่ายทำโดยผู้กำกับหนุ่มคนหนึ่ง"
+    },
+    {
+        word: "导致",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dǎozhì",
+        meaning: "ส่งผลให้, ก่อให้เกิดผลลัพธ์",
+        example: "睡眠不足会导致注意力下降。",
+        examplePinyin: "Shuìmián bùzú huì dǎozhì zhùyìlì xiàjiàng.",
+        translation: "การนอนไม่เพียงพอส่งผลให้สมาธิลดลง"
+    },
+    {
+        word: "岛屿",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dǎoyǔ",
+        meaning: "หมู่เกาะ, เกาะ",
+        example: "这个地区有很多美丽的岛屿。",
+        examplePinyin: "Zhège dìqū yǒu hěn duō měilì de dǎoyǔ.",
+        translation: "บริเวณนี้มีเกาะที่สวยงามมากมาย"
+    },
+    {
+        word: "倒霉",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "dǎoméi",
+        meaning: "โชคร้าย, ซวย",
+        example: "今天真倒霉，出门就下雨了。",
+        examplePinyin: "Jīntiān zhēn dǎoméi, chūmén jiù xiàyǔ le.",
+        translation: "วันนี้โชคร้ายจริง ๆ พอออกจากบ้านฝนก็ตก"
+    },
+    {
+        word: "到达",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dàodá",
+        meaning: "ไปถึง, เดินทางถึง",
+        example: "我们晚上八点到达机场。",
+        examplePinyin: "Wǒmen wǎnshang bā diǎn dàodá jīchǎng.",
+        translation: "พวกเราไปถึงสนามบินตอนสองทุ่ม"
+    },
+    {
+        word: "倒",
+        partOfSpeech: "verb (v.) / adverb (adv.)",
+        pinyin: "dǎo / dào",
+        meaning: "ล้ม, เท, กลับกัน, กลับจะ",
+        example: "请把杯子里的水倒出来。",
+        examplePinyin: "Qǐng bǎ bēizi lǐ de shuǐ dào chūlai.",
+        translation: "กรุณาเทน้ำออกจากแก้ว"
+    },
+    {
+        word: "道德",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dàodé",
+        meaning: "ศีลธรรม, จริยธรรม",
+        example: "我们应该遵守社会道德。",
+        examplePinyin: "Wǒmen yīnggāi zūnshǒu shèhuì dàodé.",
+        translation: "พวกเราควรปฏิบัติตามจริยธรรมของสังคม"
+    },
+    {
+        word: "道理",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dàoli",
+        meaning: "เหตุผล, หลักการ, ข้อเท็จจริง",
+        example: "我明白你说的道理。",
+        examplePinyin: "Wǒ míngbai nǐ shuō de dàoli.",
+        translation: "ฉันเข้าใจเหตุผลที่คุณพูดแล้ว"
+    },
+    {
+        word: "登记",
+        partOfSpeech: "verb (v.) / noun (n.)",
+        pinyin: "dēngjì",
+        meaning: "ลงทะเบียน, จดบันทึก",
+        example: "入住酒店时需要登记。",
+        examplePinyin: "Rùzhù jiǔdiàn shí xūyào dēngjì.",
+        translation: "เมื่อต้องการเข้าพักโรงแรม จำเป็นต้องลงทะเบียน"
+    },
+    {
+        word: "等待",
+        partOfSpeech: "verb (v.)",
+        pinyin: "děngdài",
+        meaning: "รอคอย",
+        example: "我在门口等待朋友。",
+        examplePinyin: "Wǒ zài ménkǒu děngdài péngyou.",
+        translation: "ฉันรอเพื่อนอยู่ที่หน้าประตู"
+    },
+    {
+        word: "等于",
+        partOfSpeech: "verb (v.)",
+        pinyin: "děngyú",
+        meaning: "เท่ากับ, มีค่าเท่ากับ",
+        example: "二加三等于五。",
+        examplePinyin: "Èr jiā sān děngyú wǔ.",
+        translation: "สองบวกสามเท่ากับห้า"
+    },
+    {
+        word: "滴",
+        partOfSpeech: "measure word (mw.) / verb (v.) / noun (n.)",
+        pinyin: "dī",
+        meaning: "หยด, หยดลงมา",
+        example: "雨水一滴一滴地落下来。",
+        examplePinyin: "Yǔshuǐ yì dī yì dī de luò xiàlai.",
+        translation: "น้ำฝนหยดลงมาทีละหยด"
+    },
+    {
+        word: "的确",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "díquè",
+        meaning: "จริง ๆ, อย่างแท้จริง",
+        example: "这本书的确很有意思。",
+        examplePinyin: "Zhè běn shū díquè hěn yǒu yìsi.",
+        translation: "หนังสือเล่มนี้น่าสนใจจริง ๆ"
+    },
+    {
+        word: "敌人",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dírén",
+        meaning: "ศัตรู",
+        example: "我们不应该轻视敌人。",
+        examplePinyin: "Wǒmen bù yīnggāi qīngshì dírén.",
+        translation: "พวกเราไม่ควรประมาทศัตรู"
+    },
+    {
+        word: "底",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dǐ",
+        meaning: "ด้านล่าง, ก้น, ส่วนท้าย",
+        example: "箱子底有一本书。",
+        examplePinyin: "Xiāngzi dǐ yǒu yì běn shū.",
+        translation: "ที่ก้นกล่องมีหนังสืออยู่หนึ่งเล่ม"
+    },
+    {
+        word: "地道",
+        partOfSpeech: "adjective (adj.) / noun (n.)",
+        pinyin: "dìdao / dìdào",
+        meaning: "แท้แบบต้นตำรับ, เป็นธรรมชาติ; อุโมงค์ใต้ดิน",
+        example: "这家店的中国菜很地道。",
+        examplePinyin: "Zhè jiā diàn de Zhōngguó cài hěn dìdao.",
+        translation: "อาหารจีนของร้านนี้เป็นแบบต้นตำรับมาก"
+    },
+    {
+        word: "地理",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dìlǐ",
+        meaning: "ภูมิศาสตร์",
+        example: "我对中国地理很感兴趣。",
+        examplePinyin: "Wǒ duì Zhōngguó dìlǐ hěn gǎn xìngqù.",
+        translation: "ฉันสนใจภูมิศาสตร์ของจีนมาก"
+    },
+    {
+        word: "地区",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dìqū",
+        meaning: "พื้นที่, ภูมิภาค, เขต",
+        example: "这个地区的气候比较温暖。",
+        examplePinyin: "Zhège dìqū de qìhòu bǐjiào wēnnuǎn.",
+        translation: "ภูมิอากาศของภูมิภาคนี้ค่อนข้างอบอุ่น"
+    },
+    {
+        word: "地毯",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dìtǎn",
+        meaning: "พรม",
+        example: "客厅里铺着一块红色的地毯。",
+        examplePinyin: "Kètīng lǐ pū zhe yí kuài hóngsè de dìtǎn.",
+        translation: "ในห้องนั่งเล่นปูพรมสีแดงผืนหนึ่งอยู่"
+    },
+    {
+        word: "地位",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dìwèi",
+        meaning: "สถานะ, ตำแหน่ง, ฐานะ",
+        example: "教育在社会中有重要的地位。",
+        examplePinyin: "Jiàoyù zài shèhuì zhōng yǒu zhòngyào de dìwèi.",
+        translation: "การศึกษามีสถานะสำคัญในสังคม"
+    },
+    {
+        word: "地震",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dìzhèn",
+        meaning: "แผ่นดินไหว",
+        example: "发生地震时，要注意安全。",
+        examplePinyin: "Fāshēng dìzhèn shí, yào zhùyì ānquán.",
+        translation: "เมื่อเกิดแผ่นดินไหว ต้องระมัดระวังความปลอดภัย"
+    },
+    {
+        word: "递",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dì",
+        meaning: "ส่งให้, ยื่นให้",
+        example: "请把那本书递给我。",
+        examplePinyin: "Qǐng bǎ nà běn shū dì gěi wǒ.",
+        translation: "กรุณาส่งหนังสือเล่มนั้นให้ฉัน"
+    },
+    {
+        word: "点心",
+        partOfSpeech: "noun (n.)",
+        pinyin: "diǎnxin",
+        meaning: "ของว่าง, ขนม",
+        example: "下午我们吃了一些点心。",
+        examplePinyin: "Xiàwǔ wǒmen chī le yìxiē diǎnxin.",
+        translation: "ตอนบ่ายพวกเรากินขนมกันเล็กน้อย"
+    },
+    {
+        word: "电池",
+        partOfSpeech: "noun (n.)",
+        pinyin: "diànchí",
+        meaning: "แบตเตอรี่, ถ่านไฟฉาย",
+        example: "我的鼠标需要换电池了。",
+        examplePinyin: "Wǒ de shǔbiāo xūyào huàn diànchí le.",
+        translation: "เมาส์ของฉันต้องเปลี่ยนแบตเตอรี่แล้ว"
+    },
+    {
+        word: "钓",
+        partOfSpeech: "verb (v.)",
+        pinyin: "diào",
+        meaning: "ตกปลา",
+        example: "爷爷喜欢在河边钓鱼。",
+        examplePinyin: "Yéye xǐhuan zài hébiān diào yú.",
+        translation: "คุณปู่ชอบตกปลาริมแม่น้ำ"
+    },
+    {
+        word: "掉",
+        partOfSpeech: "verb (v.) / complement",
+        pinyin: "diào",
+        meaning: "ตก, หล่น, สูญเสีย, กำจัดออก",
+        example: "我的手机不小心掉在地上了。",
+        examplePinyin: "Wǒ de shǒujī bù xiǎoxīn diào zài dìshang le.",
+        translation: "โทรศัพท์ของฉันเผลอหล่นลงบนพื้น"
+    },
+    {
+        word: "顶",
+        partOfSpeech: "measure word (mw.) / noun (n.) / verb (v.)",
+        pinyin: "dǐng",
+        meaning: "ใบหรือหลังคาด้านบน; ลักษณนามของหมวก; ค้ำหรือดัน",
+        example: "他买了一顶新帽子。",
+        examplePinyin: "Tā mǎi le yì dǐng xīn màozi.",
+        translation: "เขาซื้อหมวกใบใหม่หนึ่งใบ"
+    },
+    {
+        word: "动画片",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dònghuàpiàn",
+        meaning: "การ์ตูนแอนิเมชัน",
+        example: "小时候我很喜欢看动画片。",
+        examplePinyin: "Xiǎoshíhou wǒ hěn xǐhuan kàn dònghuàpiàn.",
+        translation: "ตอนเด็ก ๆ ฉันชอบดูการ์ตูนมาก"
+    },
+    {
+        word: "冻",
+        partOfSpeech: "verb (v.) / adjective (adj.)",
+        pinyin: "dòng",
+        meaning: "แข็งตัวเพราะความเย็น, หนาวจนตัวเย็น",
+        example: "外面太冷了，我的手都冻了。",
+        examplePinyin: "Wàimiàn tài lěng le, wǒ de shǒu dōu dòng le.",
+        translation: "ข้างนอกหนาวเกินไป มือของฉันเย็นจนแทบแข็งแล้ว"
+    },
+    {
+        word: "洞",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dòng",
+        meaning: "รู, โพรง, ถ้ำ",
+        example: "墙上有一个小洞。",
+        examplePinyin: "Qiáng shàng yǒu yí ge xiǎo dòng.",
+        translation: "บนกำแพงมีรูเล็ก ๆ อยู่หนึ่งรู"
+    },
+    {
+        word: "豆腐",
+        partOfSpeech: "noun (n.)",
+        pinyin: "dòufu",
+        meaning: "เต้าหู้",
+        example: "我喜欢吃麻婆豆腐。",
+        examplePinyin: "Wǒ xǐhuan chī mápó dòufu.",
+        translation: "ฉันชอบกินเต้าหู้หม่าโผ"
+    },
+    {
+        word: "逗",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dòu",
+        meaning: "หยอกล้อ, ทำให้ขำ, แกล้งเล่น",
+        example: "他常常讲笑话逗大家开心。",
+        examplePinyin: "Tā chángcháng jiǎng xiàohua dòu dàjiā kāixīn.",
+        translation: "เขามักเล่าเรื่องตลกเพื่อทำให้ทุกคนมีความสุข"
+    },
+    {
+        word: "独立",
+        partOfSpeech: "adjective (adj.) / verb (v.)",
+        pinyin: "dúlì",
+        meaning: "เป็นอิสระ, พึ่งพาตนเอง, ได้รับเอกราช",
+        example: "上大学以后，我学会了独立生活。",
+        examplePinyin: "Shàng dàxué yǐhòu, wǒ xuéhuì le dúlì shēnghuó.",
+        translation: "หลังจากเข้ามหาวิทยาลัย ฉันก็เรียนรู้ที่จะใช้ชีวิตอย่างพึ่งพาตนเอง"
+    },
+    {
+        word: "独特",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "dútè",
+        meaning: "มีเอกลักษณ์, โดดเด่นไม่เหมือนใคร",
+        example: "这座城市有独特的文化。",
+        examplePinyin: "Zhè zuò chéngshì yǒu dútè de wénhuà.",
+        translation: "เมืองนี้มีวัฒนธรรมที่เป็นเอกลักษณ์"
+    },
+    {
+        word: "度过",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dùguò",
+        meaning: "ใช้เวลา, ผ่านช่วงเวลา",
+        example: "我想和家人一起度过周末。",
+        examplePinyin: "Wǒ xiǎng hé jiārén yìqǐ dùguò zhōumò.",
+        translation: "ฉันอยากใช้เวลาช่วงสุดสัปดาห์กับครอบครัว"
+    },
+    {
+        word: "堆",
+        partOfSpeech: "noun (n.) / verb (v.) / measure word (mw.)",
+        pinyin: "duī",
+        meaning: "กอง, กองรวมกัน, กองหนึ่ง",
+        example: "桌子上堆着很多书。",
+        examplePinyin: "Zhuōzi shàng duī zhe hěn duō shū.",
+        translation: "มีหนังสือจำนวนมากกองอยู่บนโต๊ะ"
+    },
+    {
+        word: "对待",
+        partOfSpeech: "verb (v.)",
+        pinyin: "duìdài",
+        meaning: "ปฏิบัติต่อ, จัดการกับ",
+        example: "我们应该认真对待每一件事。",
+        examplePinyin: "Wǒmen yīnggāi rènzhēn duìdài měi yí jiàn shì.",
+        translation: "พวกเราควรปฏิบัติต่อทุกเรื่องอย่างจริงจัง"
+    },
+    {
+        word: "对方",
+        partOfSpeech: "noun (n.)",
+        pinyin: "duìfāng",
+        meaning: "อีกฝ่าย, ฝ่ายตรงข้าม",
+        example: "我不知道对方的名字。",
+        examplePinyin: "Wǒ bù zhīdào duìfāng de míngzi.",
+        translation: "ฉันไม่รู้ชื่อของอีกฝ่าย"
+    },
+    {
+        word: "对手",
+        partOfSpeech: "noun (n.)",
+        pinyin: "duìshǒu",
+        meaning: "คู่แข่ง, ฝ่ายตรงข้าม",
+        example: "他是一位很强的对手。",
+        examplePinyin: "Tā shì yí wèi hěn qiáng de duìshǒu.",
+        translation: "เขาเป็นคู่แข่งที่แข็งแกร่งมาก"
+    },
+    {
+        word: "对象",
+        partOfSpeech: "noun (n.)",
+        pinyin: "duìxiàng",
+        meaning: "เป้าหมาย, บุคคลที่เกี่ยวข้อง, แฟน",
+        example: "她已经有对象了。",
+        examplePinyin: "Tā yǐjīng yǒu duìxiàng le.",
+        translation: "เธอมีแฟนแล้ว"
+    },
+    {
+        word: "兑换",
+        partOfSpeech: "verb (v.)",
+        pinyin: "duìhuàn",
+        meaning: "แลกเปลี่ยน, แลกเงิน",
+        example: "我想去银行兑换人民币。",
+        examplePinyin: "Wǒ xiǎng qù yínháng duìhuàn rénmínbì.",
+        translation: "ฉันอยากไปธนาคารเพื่อแลกเงินหยวน"
+    },
+    {
+        word: "吨",
+        partOfSpeech: "measure word (mw.)",
+        pinyin: "dūn",
+        meaning: "ตัน",
+        example: "这辆卡车能装十吨货物。",
+        examplePinyin: "Zhè liàng kǎchē néng zhuāng shí dūn huòwù.",
+        translation: "รถบรรทุกคันนี้สามารถบรรทุกสินค้าได้สิบตัน"
+    },
+    {
+        word: "蹲",
+        partOfSpeech: "verb (v.)",
+        pinyin: "dūn",
+        meaning: "นั่งยอง ๆ, ย่อตัว",
+        example: "他蹲在地上找东西。",
+        examplePinyin: "Tā dūn zài dìshang zhǎo dōngxi.",
+        translation: "เขานั่งยอง ๆ อยู่บนพื้นเพื่อหาของ"
+    },
+    {
+        word: "顿",
+        partOfSpeech: "measure word (mw.)",
+        pinyin: "dùn",
+        meaning: "มื้อ (อาหาร), ครั้ง (การดุด่าหรือตี)",
+        example: "今天晚上我们一起吃一顿饭吧。",
+        examplePinyin: "Jīntiān wǎnshang wǒmen yìqǐ chī yí dùn fàn ba.",
+        translation: "คืนนี้พวกเรากินข้าวด้วยกันสักมื้อเถอะ"
+    },
+    {
+        word: "多亏",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "duōkuī",
+        meaning: "โชคดีที่, ต้องขอบคุณที่",
+        example: "多亏你的帮助，我才完成了任务。",
+        examplePinyin: "Duōkuī nǐ de bāngzhù, wǒ cái wánchéng le rènwu.",
+        translation: "โชคดีที่ได้รับความช่วยเหลือจากคุณ ฉันจึงทำงานสำเร็จ"
+    },
+    {
+        word: "多余",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "duōyú",
+        meaning: "เกินความจำเป็น, เหลือเกิน",
+        example: "这些东西对我来说是多余的。",
+        examplePinyin: "Zhèxiē dōngxi duì wǒ lái shuō shì duōyú de.",
+        translation: "ของเหล่านี้ไม่จำเป็นสำหรับฉัน"
+    },
+    {
+        word: "朵",
+        partOfSpeech: "measure word (mw.)",
+        pinyin: "duǒ",
+        meaning: "ลักษณนามของดอกไม้หรือสิ่งที่เป็นก้อน",
+        example: "花瓶里有三朵花。",
+        examplePinyin: "Huāpíng lǐ yǒu sān duǒ huā.",
+        translation: "ในแจกันมีดอกไม้สามดอก"
+    },
+    {
+        word: "躲藏",
+        partOfSpeech: "verb (v.)",
+        pinyin: "duǒcáng",
+        meaning: "หลบซ่อน",
+        example: "小猫躲藏在桌子下面。",
+        examplePinyin: "Xiǎo māo duǒcáng zài zhuōzi xiàmian.",
+        translation: "ลูกแมวซ่อนตัวอยู่ใต้โต๊ะ"
+    },
+    {
+        word: "恶劣",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "èliè",
+        meaning: "เลวร้าย, รุนแรง (มักใช้กับสภาพหรือสถานการณ์)",
+        example: "由于天气恶劣，比赛取消了。",
+        examplePinyin: "Yóuyú tiānqì èliè, bǐsài qǔxiāo le.",
+        translation: "เนื่องจากสภาพอากาศเลวร้าย การแข่งขันจึงถูกยกเลิก"
+    },
+    {
+        word: "耳环",
+        partOfSpeech: "noun (n.)",
+        pinyin: "ěrhuán",
+        meaning: "ต่างหู",
+        example: "她买了一对漂亮的耳环。",
+        examplePinyin: "Tā mǎi le yí duì piàoliang de ěrhuán.",
+        translation: "เธอซื้อต่างหูสวย ๆ หนึ่งคู่"
+    },
+    {
+        word: "发",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fā",
+        meaning: "ส่ง, แจก, ปล่อย, เกิดขึ้น",
+        example: "我已经给你发消息了。",
+        examplePinyin: "Wǒ yǐjīng gěi nǐ fā xiāoxi le.",
+        translation: "ฉันส่งข้อความให้คุณแล้ว"
+    },
+    {
+        word: "发表",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fābiǎo",
+        meaning: "เผยแพร่, แสดง (ความคิดเห็น)",
+        example: "他在会上发表了自己的看法。",
+        examplePinyin: "Tā zài huì shàng fābiǎo le zìjǐ de kànfǎ.",
+        translation: "เขาแสดงความคิดเห็นของตนเองในที่ประชุม"
+    },
+    {
+        word: "发愁",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fāchóu",
+        meaning: "กลุ้มใจ, กังวล",
+        example: "别为这件事发愁。",
+        examplePinyin: "Bié wèi zhè jiàn shì fāchóu.",
+        translation: "อย่ากลุ้มใจกับเรื่องนี้เลย"
+    },
+    {
+        word: "发达",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "fādá",
+        meaning: "พัฒนาแล้ว, เจริญรุ่งเรือง",
+        example: "这个国家的科技很发达。",
+        examplePinyin: "Zhège guójiā de kējì hěn fādá.",
+        translation: "เทคโนโลยีของประเทศนี้พัฒนามาก"
+    },
+    {
+        word: "发抖",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fādǒu",
+        meaning: "สั่น, ตัวสั่น",
+        example: "天气太冷了，我的手一直发抖。",
+        examplePinyin: "Tiānqì tài lěng le, wǒ de shǒu yìzhí fādǒu.",
+        translation: "อากาศหนาวเกินไป มือของฉันสั่นตลอดเวลา"
+    },
+    {
+        word: "发挥",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fāhuī",
+        meaning: "แสดงศักยภาพ, ใช้ความสามารถ",
+        example: "考试时要发挥自己的水平。",
+        examplePinyin: "Kǎoshì shí yào fāhuī zìjǐ de shuǐpíng.",
+        translation: "ตอนสอบต้องแสดงความสามารถของตัวเองออกมา"
+    },
+    {
+        word: "发明",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "fāmíng",
+        meaning: "ประดิษฐ์, สิ่งประดิษฐ์",
+        example: "爱迪生发明了电灯吗？",
+        examplePinyin: "Àidíshēng fāmíng le diàndēng ma?",
+        translation: "เอดิสันเป็นผู้ประดิษฐ์หลอดไฟใช่ไหม"
+    },
+    {
+        word: "发票",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fāpiào",
+        meaning: "ใบกำกับภาษี, ใบเสร็จรับเงินอย่างเป็นทางการ",
+        example: "买完东西后，别忘了开发票。",
+        examplePinyin: "Mǎi wán dōngxi hòu, bié wàng le kāi fāpiào.",
+        translation: "หลังซื้อของเสร็จ อย่าลืมขอใบกำกับภาษี"
+    },
+    {
+        word: "发言",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "fāyán",
+        meaning: "กล่าวคำพูด, แสดงความคิดเห็น, การกล่าว",
+        example: "请大家按顺序发言。",
+        examplePinyin: "Qǐng dàjiā àn shùnxù fāyán.",
+        translation: "ขอให้ทุกคนแสดงความคิดเห็นตามลำดับ"
+    },
+    {
+        word: "罚款",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "fákuǎn",
+        meaning: "ปรับเงิน, ค่าปรับ",
+        example: "如果违反交通规则，就可能被罚款。",
+        examplePinyin: "Rúguǒ wéifǎn jiāotōng guīzé, jiù kěnéng bèi fákuǎn.",
+        translation: "ถ้าฝ่าฝืนกฎจราจร ก็อาจถูกปรับเงิน"
+    },
+    {
+        word: "法院",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fǎyuàn",
+        meaning: "ศาล",
+        example: "法院正在审理这个案件。",
+        examplePinyin: "Fǎyuàn zhèngzài shěnlǐ zhège ànjiàn.",
+        translation: "ศาลกำลังพิจารณาคดีนี้"
+    },
+    {
+        word: "翻",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fān",
+        meaning: "พลิก, กลับด้าน, แปล",
+        example: "请把这本书翻到第二十页。",
+        examplePinyin: "Qǐng bǎ zhè běn shū fān dào dì èrshí yè.",
+        translation: "กรุณาเปิดหนังสือไปที่หน้าที่ 20"
+    },
+    {
+        word: "繁荣",
+        partOfSpeech: "adjective/verb (adj./v.)",
+        pinyin: "fánróng",
+        meaning: "เจริญรุ่งเรือง, ทำให้รุ่งเรือง",
+        example: "这座城市的经济越来越繁荣。",
+        examplePinyin: "Zhè zuò chéngshì de jīngjì yuèláiyuè fánróng.",
+        translation: "เศรษฐกิจของเมืองนี้เจริญรุ่งเรืองขึ้นเรื่อย ๆ"
+    },
+    {
+        word: "反而",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "fǎn'ér",
+        meaning: "กลับกัน, กลับกลายเป็นว่า",
+        example: "我以为他会生气，没想到他反而笑了。",
+        examplePinyin: "Wǒ yǐwéi tā huì shēngqì, méi xiǎngdào tā fǎn'ér xiào le.",
+        translation: "ฉันคิดว่าเขาจะโกรธ แต่ไม่คิดเลยว่าเขากลับหัวเราะ"
+    },
+    {
+        word: "反复",
+        partOfSpeech: "adverb/verb (adv./v.)",
+        pinyin: "fǎnfù",
+        meaning: "ซ้ำไปซ้ำมา, ทำซ้ำ",
+        example: "这个问题我反复检查了三遍。",
+        examplePinyin: "Zhège wèntí wǒ fǎnfù jiǎnchá le sān biàn.",
+        translation: "ฉันตรวจสอบปัญหานี้ซ้ำไปซ้ำมาสามรอบ"
+    },
+    {
+        word: "反应",
+        partOfSpeech: "noun/verb (n./v.)",
+        pinyin: "fǎnyìng",
+        meaning: "ปฏิกิริยา, ตอบสนอง",
+        example: "他的反应很快。",
+        examplePinyin: "Tā de fǎnyìng hěn kuài.",
+        translation: "ปฏิกิริยาของเขารวดเร็วมาก"
+    },
+    {
+        word: "反映",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fǎnyìng",
+        meaning: "สะท้อนให้เห็น, รายงานปัญหา",
+        example: "学生向老师反映了这个问题。",
+        examplePinyin: "Xuésheng xiàng lǎoshī fǎnyìng le zhège wèntí.",
+        translation: "นักเรียนรายงานปัญหานี้ให้ครูทราบ"
+    },
+    {
+        word: "反正",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "fǎnzhèng",
+        meaning: "อย่างไรก็, ยังไงก็",
+        example: "反正明天不用上课，我们可以晚点儿起床。",
+        examplePinyin: "Fǎnzhèng míngtiān bú yòng shàng kè, wǒmen kěyǐ wǎn diǎnr qǐchuáng.",
+        translation: "ยังไงพรุ่งนี้ก็ไม่ต้องเรียน พวกเราตื่นสายหน่อยก็ได้"
+    },
+    {
+        word: "范围",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fànwéi",
+        meaning: "ขอบเขต, ช่วง, ขอบข่าย",
+        example: "这次考试的范围包括第五课到第八课。",
+        examplePinyin: "Zhè cì kǎoshì de fànwéi bāokuò dì wǔ kè dào dì bā kè.",
+        translation: "ขอบเขตของการสอบครั้งนี้ครอบคลุมบทที่ 5 ถึงบทที่ 8"
+    },
+    {
+        word: "方",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fāng",
+        meaning: "ด้าน, ฝ่าย, วิธี; สี่เหลี่ยม (ขึ้นอยู่กับบริบท)",
+        example: "双方应该互相尊重。",
+        examplePinyin: "Shuāngfāng yīnggāi hùxiāng zūnzhòng.",
+        translation: "ทั้งสองฝ่ายควรเคารพซึ่งกันและกัน"
+    },
+    {
+        word: "方案",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fāng'àn",
+        meaning: "แผนงาน, แนวทางแก้ไข",
+        example: "我们需要制定一个新的方案。",
+        examplePinyin: "Wǒmen xūyào zhìdìng yí ge xīn de fāng'àn.",
+        translation: "พวกเราจำเป็นต้องจัดทำแผนใหม่"
+    },
+    {
+        word: "方式",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fāngshì",
+        meaning: "วิธีการ, รูปแบบ",
+        example: "每个人都有自己的学习方式。",
+        examplePinyin: "Měi ge rén dōu yǒu zìjǐ de xuéxí fāngshì.",
+        translation: "ทุกคนมีวิธีการเรียนของตัวเอง"
+    },
+    {
+        word: "妨碍",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fáng'ài",
+        meaning: "ขัดขวาง, เป็นอุปสรรคต่อ",
+        example: "不要妨碍别人工作。",
+        examplePinyin: "Bú yào fáng'ài biérén gōngzuò.",
+        translation: "อย่าขัดขวางการทำงานของคนอื่น"
+    },
+    {
+        word: "仿佛",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "fǎngfú",
+        meaning: "ราวกับว่า, ดูเหมือนว่า",
+        example: "听到这个消息，我仿佛回到了童年。",
+        examplePinyin: "Tīngdào zhège xiāoxi, wǒ fǎngfú huídào le tóngnián.",
+        translation: "เมื่อได้ยินข่าวนี้ ฉันรู้สึกราวกับย้อนกลับไปสู่วัยเด็ก"
+    },
+    {
+        word: "放",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fàng",
+        meaning: "วาง, ปล่อย, เปิด (เพลงหรือเสียง)",
+        example: "请把手机放在桌子上。",
+        examplePinyin: "Qǐng bǎ shǒujī fàng zài zhuōzi shàng.",
+        translation: "กรุณาวางโทรศัพท์ไว้บนโต๊ะ"
+    },
+    {
+        word: "非",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "fēi",
+        meaning: "ไม่, จำเป็นต้อง (มักพบในรูปแบบ 非……不可)",
+        example: "这件事非做不可。",
+        examplePinyin: "Zhè jiàn shì fēi zuò bù kě.",
+        translation: "เรื่องนี้จำเป็นต้องทำให้ได้"
+    },
+    {
+        word: "肥皂",
+        partOfSpeech: "noun (n.)",
+        pinyin: "féizào",
+        meaning: "สบู่",
+        example: "洗手前，先用肥皂洗干净。",
+        examplePinyin: "Xǐ shǒu qián, xiān yòng féizào xǐ gānjìng.",
+        translation: "ก่อนล้างมือ ให้ใช้สบู่ล้างให้สะอาดก่อน"
+    },
+    {
+        word: "废话",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fèihuà",
+        meaning: "คำพูดไร้สาระ, คำพูดที่ไม่จำเป็น",
+        example: "别说废话了，快开始吧。",
+        examplePinyin: "Bié shuō fèihuà le, kuài kāishǐ ba.",
+        translation: "อย่าพูดไร้สาระเลย เริ่มกันเร็วเข้า"
+    },
+    {
+        word: "分别",
+        partOfSpeech: "verb/adverb (v./adv.)",
+        pinyin: "fēnbié",
+        meaning: "แยกจากกัน, ตามลำดับ, แยกกัน",
+        example: "我们分别来自中国和老挝。",
+        examplePinyin: "Wǒmen fēnbié láizì Zhōngguó hé Lǎowō.",
+        translation: "พวกเรามาจากประเทศจีนและลาวตามลำดับ"
+    },
+    {
+        word: "分布",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fēnbù",
+        meaning: "กระจายตัว, ตั้งอยู่กระจายตามพื้นที่",
+        example: "这种植物分布在南方地区。",
+        examplePinyin: "Zhè zhǒng zhíwù fēnbù zài nánfāng dìqū.",
+        translation: "พืชชนิดนี้กระจายอยู่ในพื้นที่ทางตอนใต้"
+    },
+    {
+        word: "分配",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fēnpèi",
+        meaning: "จัดสรร, แบ่งปัน, แจกจ่าย",
+        example: "老师把任务分配给了每个学生。",
+        examplePinyin: "Lǎoshī bǎ rènwu fēnpèi gěi le měi ge xuésheng.",
+        translation: "ครูแบ่งงานให้นักเรียนแต่ละคน"
+    },
+    {
+        word: "分手",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fēnshǒu",
+        meaning: "เลิกกัน, แยกทางกัน",
+        example: "他们决定分手了。",
+        examplePinyin: "Tāmen juédìng fēnshǒu le.",
+        translation: "พวกเขาตัดสินใจเลิกกันแล้ว"
+    },
+    {
+        word: "分析",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "fēnxī",
+        meaning: "วิเคราะห์, การวิเคราะห์",
+        example: "我们需要分析这个问题的原因。",
+        examplePinyin: "Wǒmen xūyào fēnxī zhège wèntí de yuányīn.",
+        translation: "พวกเราจำเป็นต้องวิเคราะห์สาเหตุของปัญหานี้"
+    },
+    {
+        word: "纷纷",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "fēnfēn",
+        meaning: "ต่างก็, พากัน, อย่างต่อเนื่องหลายคน",
+        example: "听到这个消息，大家纷纷表示支持。",
+        examplePinyin: "Tīngdào zhège xiāoxi, dàjiā fēnfēn biǎoshì zhīchí.",
+        translation: "เมื่อได้ยินข่าวนี้ ทุกคนต่างก็แสดงการสนับสนุน"
+    },
+    {
+        word: "份",
+        partOfSpeech: "measure word (mw.)",
+        pinyin: "fèn",
+        meaning: "ฉบับ, ชุด, ส่วน, ที่ (ใช้กับสิ่งที่แบ่งเป็นส่วน)",
+        example: "请给我一份菜单。",
+        examplePinyin: "Qǐng gěi wǒ yí fèn càidān.",
+        translation: "ขอเมนูหนึ่งฉบับครับ"
+    },
+    {
+        word: "奋斗",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fèndòu",
+        meaning: "ต่อสู้ดิ้นรน, มุ่งมั่นพยายาม",
+        example: "为了实现梦想，我们必须努力奋斗。",
+        examplePinyin: "Wèile shíxiàn mèngxiǎng, wǒmen bìxū nǔlì fèndòu.",
+        translation: "เพื่อทำให้ความฝันเป็นจริง พวกเราต้องมุ่งมั่นพยายาม"
+    },
+    {
+        word: "风格",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fēnggé",
+        meaning: "รูปแบบ, สไตล์",
+        example: "我很喜欢这位作家的写作风格。",
+        examplePinyin: "Wǒ hěn xǐhuan zhè wèi zuòjiā de xiězuò fēnggé.",
+        translation: "ฉันชอบสไตล์การเขียนของนักเขียนคนนี้มาก"
+    },
+    {
+        word: "风俗",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fēngsú",
+        meaning: "ขนบธรรมเนียม, ประเพณีท้องถิ่น",
+        example: "每个地方都有不同的风俗。",
+        examplePinyin: "Měi ge dìfang dōu yǒu bùtóng de fēngsú.",
+        translation: "แต่ละพื้นที่มีขนบธรรมเนียมที่แตกต่างกัน"
+    },
+    {
+        word: "风险",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fēngxiǎn",
+        meaning: "ความเสี่ยง",
+        example: "投资之前，我们应该了解风险。",
+        examplePinyin: "Tóuzī zhīqián, wǒmen yīnggāi liǎojiě fēngxiǎn.",
+        translation: "ก่อนลงทุน พวกเราควรทำความเข้าใจความเสี่ยง"
+    },
+    {
+        word: "疯狂",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "fēngkuáng",
+        meaning: "บ้าคลั่ง, คลั่งไคล้อย่างมาก",
+        example: "他疯狂地迷上了这款游戏。",
+        examplePinyin: "Tā fēngkuáng de mí shàng le zhè kuǎn yóuxì.",
+        translation: "เขาคลั่งไคล้เกมนี้อย่างมาก"
+    },
+    {
+        word: "讽刺",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "fěngcì",
+        meaning: "เสียดสี, ประชดประชัน, การเสียดสี",
+        example: "他用幽默的方式讽刺了这种现象。",
+        examplePinyin: "Tā yòng yōumò de fāngshì fěngcì le zhè zhǒng xiànxiàng.",
+        translation: "เขาเสียดสีปรากฏการณ์นี้ด้วยวิธีที่มีอารมณ์ขัน"
+    },
+    {
+        word: "否定",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fǒudìng",
+        meaning: "ปฏิเสธ, ไม่ยอมรับ, ลบล้าง",
+        example: "我们不能完全否定他的意见。",
+        examplePinyin: "Wǒmen bù néng wánquán fǒudìng tā de yìjiàn.",
+        translation: "พวกเราไม่สามารถปฏิเสธความคิดเห็นของเขาทั้งหมดได้"
+    },
+    {
+        word: "否认",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fǒurèn",
+        meaning: "ปฏิเสธว่าไม่เป็นความจริง, ไม่ยอมรับ",
+        example: "他否认自己做过这件事。",
+        examplePinyin: "Tā fǒurèn zìjǐ zuò guo zhè jiàn shì.",
+        translation: "เขาปฏิเสธว่าตนเองเคยทำเรื่องนี้"
+    },
+    {
+        word: "扶",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fú",
+        meaning: "พยุง, ประคอง",
+        example: "他扶着老人慢慢地走。",
+        examplePinyin: "Tā fúzhe lǎorén mànmàn de zǒu.",
+        translation: "เขาพยุงผู้สูงอายุเดินอย่างช้า ๆ"
+    },
+    {
+        word: "服装",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fúzhuāng",
+        meaning: "เสื้อผ้า, เครื่องแต่งกาย",
+        example: "这家商店的服装很漂亮。",
+        examplePinyin: "Zhè jiā shāngdiàn de fúzhuāng hěn piàoliang.",
+        translation: "เสื้อผ้าของร้านนี้สวยมาก"
+    },
+    {
+        word: "幅",
+        partOfSpeech: "measure word (mw.)",
+        pinyin: "fú",
+        meaning: "ลักษณนามของภาพวาด ผ้า และภาพบางชนิด",
+        example: "墙上挂着一幅画。",
+        examplePinyin: "Qiáng shàng guàzhe yì fú huà.",
+        translation: "มีภาพวาดหนึ่งภาพแขวนอยู่บนผนัง"
+    },
+    {
+        word: "辅导",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fǔdǎo",
+        meaning: "สอนเสริม, ให้คำแนะนำ",
+        example: "老师辅导我们学习汉语。",
+        examplePinyin: "Lǎoshī fǔdǎo wǒmen xuéxí Hànyǔ.",
+        translation: "ครูสอนเสริมภาษาจีนให้พวกเรา"
+    },
+    {
+        word: "妇女",
+        partOfSpeech: "noun (n.)",
+        pinyin: "fùnǚ",
+        meaning: "ผู้หญิง, สตรี",
+        example: "这项活动主要帮助妇女。",
+        examplePinyin: "Zhè xiàng huódòng zhǔyào bāngzhù fùnǚ.",
+        translation: "กิจกรรมนี้ช่วยเหลือผู้หญิงเป็นหลัก"
+    },
+    {
+        word: "复制",
+        partOfSpeech: "verb (v.)",
+        pinyin: "fùzhì",
+        meaning: "คัดลอก, ทำสำเนา",
+        example: "请把这段文字复制下来。",
+        examplePinyin: "Qǐng bǎ zhè duàn wénzì fùzhì xiàlai.",
+        translation: "กรุณาคัดลอกข้อความส่วนนี้ไว้"
+    },
+    {
+        word: "改革",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "gǎigé",
+        meaning: "ปฏิรูป, การปฏิรูป",
+        example: "学校正在进行教学改革。",
+        examplePinyin: "Xuéxiào zhèngzài jìnxíng jiàoxué gǎigé.",
+        translation: "โรงเรียนกำลังดำเนินการปฏิรูปการเรียนการสอน"
+    },
+    {
+        word: "改进",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǎijìn",
+        meaning: "ปรับปรุงให้ดีขึ้น",
+        example: "我们需要改进学习方法。",
+        examplePinyin: "Wǒmen xūyào gǎijìn xuéxí fāngfǎ.",
+        translation: "พวกเราจำเป็นต้องปรับปรุงวิธีการเรียน"
+    },
+    {
+        word: "改善",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǎishàn",
+        meaning: "ปรับปรุง, ทำให้ดีขึ้น",
+        example: "运动可以改善我们的健康状况。",
+        examplePinyin: "Yùndòng kěyǐ gǎishàn wǒmen de jiànkāng zhuàngkuàng.",
+        translation: "การออกกำลังกายสามารถช่วยปรับปรุงสุขภาพของเราได้"
+    },
+    {
+        word: "改正",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǎizhèng",
+        meaning: "แก้ไขให้ถูกต้อง",
+        example: "发现错误后，我们应该马上改正。",
+        examplePinyin: "Fāxiàn cuòwù hòu, wǒmen yīnggāi mǎshàng gǎizhèng.",
+        translation: "หลังพบข้อผิดพลาด พวกเราควรแก้ไขทันที"
+    },
+    {
+        word: "盖",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gài",
+        meaning: "ปิด, คลุม, สร้าง (อาคาร)",
+        example: "他们准备在这里盖一座新房子。",
+        examplePinyin: "Tāmen zhǔnbèi zài zhèlǐ gài yí zuò xīn fángzi.",
+        translation: "พวกเขาเตรียมสร้างบ้านหลังใหม่ที่นี่"
+    },
+    {
+        word: "概括",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gàikuò",
+        meaning: "สรุปใจความ, สรุปโดยย่อ",
+        example: "请用几句话概括这篇文章的内容。",
+        examplePinyin: "Qǐng yòng jǐ jù huà gàikuò zhè piān wénzhāng de nèiróng.",
+        translation: "กรุณาสรุปเนื้อหาของบทความนี้ด้วยประโยคไม่กี่ประโยค"
+    },
+    {
+        word: "概念",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gàiniàn",
+        meaning: "แนวคิด, มโนทัศน์",
+        example: "我还不太理解这个概念。",
+        examplePinyin: "Wǒ hái bú tài lǐjiě zhège gàiniàn.",
+        translation: "ฉันยังไม่ค่อยเข้าใจแนวคิดนี้"
+    },
+    {
+        word: "干脆",
+        partOfSpeech: "adverb/adjective (adv./adj.)",
+        pinyin: "gāncuì",
+        meaning: "ตัดสินใจทำทันที, เด็ดขาด, ตรงไปตรงมา",
+        example: "既然下雨了，我们干脆在家学习吧。",
+        examplePinyin: "Jìrán xiàyǔ le, wǒmen gāncuì zài jiā xuéxí ba.",
+        translation: "ในเมื่อฝนตกแล้ว พวกเราเรียนที่บ้านกันเลยดีกว่า"
+    },
+    {
+        word: "干燥",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "gānzào",
+        meaning: "แห้ง, แห้งแล้ง",
+        example: "这里的天气很干燥。",
+        examplePinyin: "Zhèlǐ de tiānqì hěn gānzào.",
+        translation: "อากาศที่นี่แห้งมาก"
+    },
+    {
+        word: "赶",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǎn",
+        meaning: "รีบไป, ไล่ตาม, เร่งให้ทัน",
+        example: "我得赶火车，不能迟到了。",
+        examplePinyin: "Wǒ děi gǎn huǒchē, bù néng chídào le.",
+        translation: "ฉันต้องรีบไปขึ้นรถไฟ จะไปสายไม่ได้"
+    },
+    {
+        word: "赶紧",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "gǎnjǐn",
+        meaning: "รีบ, รีบเร่ง",
+        example: "快下雨了，我们赶紧回家吧。",
+        examplePinyin: "Kuài xiàyǔ le, wǒmen gǎnjǐn huí jiā ba.",
+        translation: "ฝนใกล้จะตกแล้ว พวกเรารีบกลับบ้านกันเถอะ"
+    },
+    {
+        word: "赶快",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "gǎnkuài",
+        meaning: "รีบ, โดยเร็ว",
+        example: "时间不多了，赶快开始吧。",
+        examplePinyin: "Shíjiān bù duō le, gǎnkuài kāishǐ ba.",
+        translation: "เวลาเหลือไม่มากแล้ว รีบเริ่มกันเถอะ"
+    },
+    {
+        word: "感激",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǎnjī",
+        meaning: "รู้สึกซาบซึ้ง, สำนึกในบุญคุณ",
+        example: "我非常感激你的帮助。",
+        examplePinyin: "Wǒ fēicháng gǎnjī nǐ de bāngzhù.",
+        translation: "ฉันซาบซึ้งในความช่วยเหลือของคุณมาก"
+    },
+    {
+        word: "感受",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "gǎnshòu",
+        meaning: "รู้สึก, ความรู้สึกหรือประสบการณ์ที่ได้รับ",
+        example: "我能感受到他的关心。",
+        examplePinyin: "Wǒ néng gǎnshòu dào tā de guānxīn.",
+        translation: "ฉันสัมผัสได้ถึงความห่วงใยของเขา"
+    },
+    {
+        word: "感想",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gǎnxiǎng",
+        meaning: "ความคิดเห็นหรือความรู้สึกหลังจากประสบสิ่งใดสิ่งหนึ่ง",
+        example: "看完这本书，你有什么感想？",
+        examplePinyin: "Kàn wán zhè běn shū, nǐ yǒu shénme gǎnxiǎng?",
+        translation: "หลังอ่านหนังสือเล่มนี้จบ คุณมีความคิดเห็นอย่างไร"
+    },
+    {
+        word: "干活儿",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gànhuór",
+        meaning: "ทำงาน, ลงมือทำงาน",
+        example: "他每天都在工地干活儿。",
+        examplePinyin: "Tā měitiān dōu zài gōngdì gànhuór.",
+        translation: "เขาทำงานที่ไซต์ก่อสร้างทุกวัน"
+    },
+    {
+        word: "高档",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "gāodàng",
+        meaning: "ระดับสูง, คุณภาพสูง, หรูหรา",
+        example: "这家商店卖高档家具。",
+        examplePinyin: "Zhè jiā shāngdiàn mài gāodàng jiājù.",
+        translation: "ร้านนี้ขายเฟอร์นิเจอร์ระดับหรู"
+    },
+    {
+        word: "高级",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "gāojí",
+        meaning: "ระดับสูง, ขั้นสูง",
+        example: "我正在学习高级汉语。",
+        examplePinyin: "Wǒ zhèngzài xuéxí gāojí Hànyǔ.",
+        translation: "ฉันกำลังเรียนภาษาจีนระดับสูง"
+    },
+    {
+        word: "搞",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǎo",
+        meaning: "ทำ, จัดการ, ดำเนินการ",
+        example: "我们一起搞一个小项目吧。",
+        examplePinyin: "Wǒmen yìqǐ gǎo yí ge xiǎo xiàngmù ba.",
+        translation: "พวกเรามาทำโปรเจกต์เล็ก ๆ ด้วยกันเถอะ"
+    },
+    {
+        word: "告别",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gàobié",
+        meaning: "กล่าวลา, ลาจาก",
+        example: "毕业时，我们向老师告别。",
+        examplePinyin: "Bìyè shí, wǒmen xiàng lǎoshī gàobié.",
+        translation: "ตอนเรียนจบ พวกเรากล่าวลาคุณครู"
+    },
+    {
+        word: "格外",
+        partOfSpeech: "adverb (adv.)",
+        pinyin: "géwài",
+        meaning: "เป็นพิเศษ, อย่างมากเป็นพิเศษ",
+        example: "今天的天空格外蓝。",
+        examplePinyin: "Jīntiān de tiānkōng géwài lán.",
+        translation: "วันนี้ท้องฟ้าเป็นสีฟ้าสดใสเป็นพิเศษ"
+    },
+    {
+        word: "隔壁",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gébì",
+        meaning: "ห้องข้าง ๆ, บ้านข้าง ๆ, ห้องติดกัน",
+        example: "我住在他隔壁。",
+        examplePinyin: "Wǒ zhù zài tā gébì.",
+        translation: "ฉันอาศัยอยู่ห้องข้าง ๆ เขา"
+    },
+    {
+        word: "个别",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "gèbié",
+        meaning: "บางคน, บางส่วน, เฉพาะราย",
+        example: "个别学生还没有交作业。",
+        examplePinyin: "Gèbié xuésheng hái méiyǒu jiāo zuòyè.",
+        translation: "นักเรียนบางคนยังไม่ได้ส่งการบ้าน"
+    },
+    {
+        word: "个性",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gèxìng",
+        meaning: "บุคลิกภาพ, ลักษณะเฉพาะตัว",
+        example: "每个人都有自己的个性。",
+        examplePinyin: "Měi ge rén dōu yǒu zìjǐ de gèxìng.",
+        translation: "ทุกคนมีบุคลิกเฉพาะตัวของตนเอง"
+    },
+    {
+        word: "各",
+        partOfSpeech: "pronoun/determiner",
+        pinyin: "gè",
+        meaning: "แต่ละ, ทุก ๆ",
+        example: "各位同学，请安静一下。",
+        examplePinyin: "Gè wèi tóngxué, qǐng ānjìng yíxià.",
+        translation: "นักเรียนทุกคน กรุณาเงียบสักครู่"
+    },
+    {
+        word: "各自",
+        partOfSpeech: "pronoun (pron.)",
+        pinyin: "gèzì",
+        meaning: "แต่ละคน, ของตนเอง",
+        example: "大家完成任务后，各自回家。",
+        examplePinyin: "Dàjiā wánchéng rènwu hòu, gèzì huí jiā.",
+        translation: "หลังทุกคนทำงานเสร็จแล้ว ต่างคนต่างกลับบ้าน"
+    },
+    {
+        word: "根",
+        partOfSpeech: "measure word (mw.)/noun (n.)",
+        pinyin: "gēn",
+        meaning: "ลักษณนามของสิ่งยาวเรียว; ราก",
+        example: "桌子上有一根铅笔。",
+        examplePinyin: "Zhuōzi shàng yǒu yì gēn qiānbǐ.",
+        translation: "บนโต๊ะมีดินสอหนึ่งแท่ง"
+    },
+    {
+        word: "根本",
+        partOfSpeech: "adverb/noun (adv./n.)",
+        pinyin: "gēnběn",
+        meaning: "โดยสิ้นเชิง (มักใช้กับ 不); รากฐาน",
+        example: "我根本不知道这件事。",
+        examplePinyin: "Wǒ gēnběn bù zhīdào zhè jiàn shì.",
+        translation: "ฉันไม่รู้เรื่องนี้เลยแม้แต่น้อย"
+    },
+    {
+        word: "根据",
+        partOfSpeech: "preposition/noun (prep./n.)",
+        pinyin: "gēnjù",
+        meaning: "ตาม, อ้างอิงจาก, หลักฐานหรือพื้นฐาน",
+        example: "根据天气预报，明天会下雨。",
+        examplePinyin: "Gēnjù tiānqì yùbào, míngtiān huì xiàyǔ.",
+        translation: "ตามพยากรณ์อากาศ พรุ่งนี้ฝนจะตก"
+    },
+    {
+        word: "工厂",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngchǎng",
+        meaning: "โรงงาน",
+        example: "我爸爸在一家工厂工作。",
+        examplePinyin: "Wǒ bàba zài yì jiā gōngchǎng gōngzuò.",
+        translation: "พ่อของฉันทำงานอยู่ที่โรงงานแห่งหนึ่ง"
+    },
+    {
+        word: "工程师",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngchéngshī",
+        meaning: "วิศวกร",
+        example: "我以后想当一名软件工程师。",
+        examplePinyin: "Wǒ yǐhòu xiǎng dāng yì míng ruǎnjiàn gōngchéngshī.",
+        translation: "ในอนาคตฉันอยากเป็นวิศวกรซอฟต์แวร์"
+    },
+    {
+        word: "工具",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngjù",
+        meaning: "เครื่องมือ, อุปกรณ์",
+        example: "电脑是学习编程的重要工具。",
+        examplePinyin: "Diànnǎo shì xuéxí biānchéng de zhòngyào gōngjù.",
+        translation: "คอมพิวเตอร์เป็นเครื่องมือสำคัญสำหรับการเรียนเขียนโปรแกรม"
+    },
+    {
+        word: "工人",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngrén",
+        meaning: "คนงาน, กรรมกร",
+        example: "工人们正在努力工作。",
+        examplePinyin: "Gōngrénmen zhèngzài nǔlì gōngzuò.",
+        translation: "คนงานกำลังทำงานอย่างขยันขันแข็ง"
+    },
+    {
+        word: "工业",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngyè",
+        meaning: "อุตสาหกรรม",
+        example: "这个城市的工业发展很快。",
+        examplePinyin: "Zhège chéngshì de gōngyè fāzhǎn hěn kuài.",
+        translation: "อุตสาหกรรมของเมืองนี้พัฒนาอย่างรวดเร็ว"
+    },
+    {
+        word: "公布",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gōngbù",
+        meaning: "ประกาศ, เผยแพร่ต่อสาธารณะ",
+        example: "学校明天公布考试成绩。",
+        examplePinyin: "Xuéxiào míngtiān gōngbù kǎoshì chéngjì.",
+        translation: "โรงเรียนจะประกาศผลสอบพรุ่งนี้"
+    },
+    {
+        word: "公开",
+        partOfSpeech: "adjective/verb (adj./v.)",
+        pinyin: "gōngkāi",
+        meaning: "เปิดเผย, ต่อสาธารณะ",
+        example: "他公开表达了自己的意见。",
+        examplePinyin: "Tā gōngkāi biǎodá le zìjǐ de yìjiàn.",
+        translation: "เขาแสดงความคิดเห็นของตนเองอย่างเปิดเผย"
+    },
+    {
+        word: "公平",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "gōngpíng",
+        meaning: "ยุติธรรม, เป็นธรรม",
+        example: "老师应该公平地对待每个学生。",
+        examplePinyin: "Lǎoshī yīnggāi gōngpíng de duìdài měi ge xuésheng.",
+        translation: "ครูควรปฏิบัติต่อนักเรียนทุกคนอย่างเป็นธรรม"
+    },
+    {
+        word: "公寓",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngyù",
+        meaning: "อพาร์ตเมนต์, ห้องพักในอาคารชุด",
+        example: "我住在学校附近的公寓里。",
+        examplePinyin: "Wǒ zhù zài xuéxiào fùjìn de gōngyù lǐ.",
+        translation: "ฉันพักอยู่ในอพาร์ตเมนต์ใกล้โรงเรียน"
+    },
+    {
+        word: "公元",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngyuán",
+        meaning: "คริสต์ศักราช (ค.ศ.)",
+        example: "公元二〇二六年是现在这一年。",
+        examplePinyin: "Gōngyuán èr líng èr liù nián shì xiànzài zhè yì nián.",
+        translation: "คริสต์ศักราช 2026 คือปีปัจจุบัน"
+    },
+    {
+        word: "公主",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngzhǔ",
+        meaning: "เจ้าหญิง",
+        example: "故事里的公主非常善良。",
+        examplePinyin: "Gùshi lǐ de gōngzhǔ fēicháng shànliáng.",
+        translation: "เจ้าหญิงในนิทานมีจิตใจดีมาก"
+    },
+    {
+        word: "功能",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gōngnéng",
+        meaning: "ฟังก์ชัน, หน้าที่, ความสามารถในการทำงาน",
+        example: "这个软件有很多实用的功能。",
+        examplePinyin: "Zhège ruǎnjiàn yǒu hěn duō shíyòng de gōngnéng.",
+        translation: "ซอฟต์แวร์นี้มีฟังก์ชันที่ใช้งานได้จริงมากมาย"
+    },
+    {
+        word: "恭喜",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gōngxǐ",
+        meaning: "ขอแสดงความยินดี",
+        example: "恭喜你通过了考试！",
+        examplePinyin: "Gōngxǐ nǐ tōngguò le kǎoshì!",
+        translation: "ยินดีด้วยที่คุณสอบผ่าน!"
+    },
+    {
+        word: "贡献",
+        partOfSpeech: "verb/noun (v./n.)",
+        pinyin: "gòngxiàn",
+        meaning: "อุทิศ, มีส่วนช่วย, ผลงานหรือคุณูปการ",
+        example: "他为社会发展做出了很大的贡献。",
+        examplePinyin: "Tā wèi shèhuì fāzhǎn zuòchū le hěn dà de gòngxiàn.",
+        translation: "เขามีส่วนช่วยอย่างมากต่อการพัฒนาสังคม"
+    },
+    {
+        word: "沟通",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gōutōng",
+        meaning: "สื่อสาร, ติดต่อพูดคุยเพื่อทำความเข้าใจ",
+        example: "遇到问题时，我们应该及时沟通。",
+        examplePinyin: "Yùdào wèntí shí, wǒmen yīnggāi jíshí gōutōng.",
+        translation: "เมื่อพบปัญหา พวกเราควรสื่อสารกันอย่างทันท่วงที"
+    },
+    {
+        word: "构成",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gòuchéng",
+        meaning: "ประกอบเป็น, ก่อให้เกิด",
+        example: "水由氢和氧构成。",
+        examplePinyin: "Shuǐ yóu qīng hé yǎng gòuchéng.",
+        translation: "น้ำประกอบด้วยไฮโดรเจนและออกซิเจน"
+    },
+    {
+        word: "够",
+        partOfSpeech: "verb/adjective (v./adj.)",
+        pinyin: "gòu",
+        meaning: "เพียงพอ, มากพอ",
+        example: "这些钱够买一本书了。",
+        examplePinyin: "Zhèxiē qián gòu mǎi yì běn shū le.",
+        translation: "เงินจำนวนนี้พอซื้อหนังสือได้หนึ่งเล่มแล้ว"
+    },
+    {
+        word: "姑姑",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gūgu",
+        meaning: "ป้าหรือน้า (พี่สาวหรือน้องสาวของพ่อ)",
+        example: "我每年春节都会去姑姑家。",
+        examplePinyin: "Wǒ měi nián Chūnjié dōu huì qù gūgu jiā.",
+        translation: "ทุกเทศกาลตรุษจีนฉันจะไปบ้านป้าหรือน้าฝั่งพ่อ"
+    },
+    {
+        word: "姑娘",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gūniang",
+        meaning: "หญิงสาว, สาวน้อย",
+        example: "那个姑娘正在图书馆看书。",
+        examplePinyin: "Nà ge gūniang zhèngzài túshūguǎn kàn shū.",
+        translation: "หญิงสาวคนนั้นกำลังอ่านหนังสืออยู่ในห้องสมุด"
+    },
+    {
+        word: "古代",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gǔdài",
+        meaning: "สมัยโบราณ",
+        example: "古代的人没有智能手机。",
+        examplePinyin: "Gǔdài de rén méiyǒu zhìnéng shǒujī.",
+        translation: "คนในสมัยโบราณไม่มีสมาร์ตโฟน"
+    },
+    {
+        word: "古典",
+        partOfSpeech: "adjective (adj.)",
+        pinyin: "gǔdiǎn",
+        meaning: "คลาสสิก, แบบโบราณดั้งเดิม",
+        example: "我喜欢听古典音乐。",
+        examplePinyin: "Wǒ xǐhuan tīng gǔdiǎn yīnyuè.",
+        translation: "ฉันชอบฟังดนตรีคลาสสิก"
+    },
+    {
+        word: "股票",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gǔpiào",
+        meaning: "หุ้น",
+        example: "他正在学习股票投资的知识。",
+        examplePinyin: "Tā zhèngzài xuéxí gǔpiào tóuzī de zhīshi.",
+        translation: "เขากำลังเรียนรู้เกี่ยวกับการลงทุนในหุ้น"
+    },
+    {
+        word: "骨头",
+        partOfSpeech: "noun (n.)",
+        pinyin: "gǔtou",
+        meaning: "กระดูก",
+        example: "这只狗喜欢啃骨头。",
+        examplePinyin: "Zhè zhī gǒu xǐhuan kěn gǔtou.",
+        translation: "สุนัขตัวนี้ชอบแทะกระดูก"
+    },
+    {
+        word: "鼓舞",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǔwǔ",
+        meaning: "ให้กำลังใจ, กระตุ้นขวัญกำลังใจ",
+        example: "老师的话鼓舞了我们。",
+        examplePinyin: "Lǎoshī de huà gǔwǔ le wǒmen.",
+        translation: "คำพูดของครูให้กำลังใจพวกเรา"
+    },
+    {
+        word: "鼓掌",
+        partOfSpeech: "verb (v.)",
+        pinyin: "gǔzhǎng",
+        meaning: "ปรบมือ",
+        example: "演出结束后，大家热烈鼓掌。",
+        examplePinyin: "Yǎnchū jiéshù hòu, dàjiā rèliè gǔzhǎng.",
+        translation: "หลังการแสดงจบ ทุกคนปรบมืออย่างกระตือรือร้น"
+    },
+    {
+        word: "固定",
+        partOfSpeech: "verb/adjective (v./adj.)",
+        pinyin: "gùdìng",
+        meaning: "กำหนดตายตัว, คงที่, ยึดติด",
+        example: "我每天都有固定的学习时间。",
+        examplePinyin: "Wǒ měitiān dōu yǒu gùdìng de xuéxí shíjiān.",
+        translation: "ฉันมีเวลาเรียนที่แน่นอนทุกวัน"
+    },
 ];
